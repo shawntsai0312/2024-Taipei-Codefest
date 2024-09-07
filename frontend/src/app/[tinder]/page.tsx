@@ -1,6 +1,5 @@
 'use client'
 import Choicebar from "./choicebar";
-import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import { usePathname } from "next/navigation";
 import Deck from './deck';

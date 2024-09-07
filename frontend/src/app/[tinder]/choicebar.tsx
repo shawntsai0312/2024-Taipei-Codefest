@@ -99,49 +99,43 @@ const Choicebar = ({ choiceRate, setChoiceRate, currCardIndex, setCurrCardIndex,
     }
 
     return (
-        <>
-            {
-                pathname === '/home' ?
-                    <div className='flex items-center fixed h-max w-full justify-around' >
-                        {choicesIcon.map((choiceIcon, index) => (
-                            <IconButton
-                                key={index}
-                                component="button" // Add the component prop with the value "button"
-                                sx={{
-                                    width: '80px',
-                                    fill: `${fillHeartHandler(choiceIcon.title)}`
-                                }}
-                                onMouseDown={() => handleMouseDown(choiceIcon.title)}
-                                onTouchStart={() => handleMouseDown(choiceIcon.title)}
-                                onMouseUp={() => handleMouseUp(choiceIcon.title)}
-                            >
-                                
-                                <svg version="1.1" id="圖層_1" focusable="false" xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
-                                    width="100%" height="100%"
-                                    style={{ background: 'new 0 0 24 24' }} xmlSpace="preserve"
-                                >
-                                    <g>
-                                        <circle cx="12" cy="12" r={`${circleRadiusHandler(choiceIcon.title)}`} fill={choiceIcon.color}
-                                            fillOpacity={`${circleOpacityHandler(choiceIcon.title)}`}
-                                            stroke={choiceIcon.color} strokeWidth={`${circleStrokeHandler(choiceIcon.title)}`}
-                                        />
-                                    </g>
-                                    <g className='scale-[0.425] translate-x-[6.9px] translate-y-[6.9px]
+        <div className='flex items-center fixed h-max w-full justify-around' >
+            {choicesIcon.map((choiceIcon, index) => (
+                <IconButton
+                    key={index}
+                    component="button" // Add the component prop with the value "button"
+                    sx={{
+                        width: '80px',
+                        fill: `${fillHeartHandler(choiceIcon.title)}`
+                    }}
+                    onMouseDown={() => handleMouseDown(choiceIcon.title)}
+                    onTouchStart={() => handleMouseDown(choiceIcon.title)}
+                    onMouseUp={() => handleMouseUp(choiceIcon.title)}
+                >
+
+                    <svg version="1.1" id="圖層_1" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+                        width="100%" height="100%"
+                        style={{ background: 'new 0 0 24 24' }} xmlSpace="preserve"
+                    >
+                        <g>
+                            <circle cx="12" cy="12" r={`${circleRadiusHandler(choiceIcon.title)}`} fill={choiceIcon.color}
+                                fillOpacity={`${circleOpacityHandler(choiceIcon.title)}`}
+                                stroke={choiceIcon.color} strokeWidth={`${circleStrokeHandler(choiceIcon.title)}`}
+                            />
+                        </g>
+                        <g className='scale-[0.425] translate-x-[6.9px] translate-y-[6.9px]
                                     hover:scale-[0.475] hover:translate-x-[6.3px] hover:translate-y-[6.3px]
                                     transistion duration-200 ease-in-out'>
-                                        {choiceIcon.svgPath}
-                                    </g>
-                                </svg>
-                               
-                            </IconButton>
-                            // </div>
-                        ))}
-                    </div>
-                    : null
-            }
-        </>
-    );
+                            {choiceIcon.svgPath}
+                        </g>
+                    </svg>
+
+                </IconButton>
+                // </div>
+            ))}
+        </div>
+    )
 }
 
 export default Choicebar;

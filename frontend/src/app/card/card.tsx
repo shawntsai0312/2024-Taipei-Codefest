@@ -5,16 +5,15 @@ import CardCover from '@mui/joy/CardCover';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
 import Stack from '@mui/material/Stack';
-import Image from 'next/image';
 
 interface CardProps {
     name: string;
-    description: string[];
-    imgUrl: string;
+    description: string;
+    imgUrl: string[];
 }
 
 const UserCard = ({ name, description, imgUrl }: CardProps) => {
-    const [descriptionIndex, setDescriptionIndex] = useState<number>(0);
+    const [imageIndex, setImageIndex] = useState<number>(0);
 
     const cardRef = useRef<HTMLDivElement>(null);
 
@@ -39,10 +38,10 @@ const UserCard = ({ name, description, imgUrl }: CardProps) => {
         // Update state with the interaction positio
 
         if (interactionRelativeX > 0) {
-            if (descriptionIndex < description.length - 1) setDescriptionIndex(descriptionIndex + 1)
+            if (imageIndex < imgUrl.length - 1) setImageIndex(imageIndex + 1)
         }
         if (interactionRelativeX < 0) {
-            if (descriptionIndex > 0) setDescriptionIndex(descriptionIndex - 1)
+            if (imageIndex > 0) setImageIndex(imageIndex - 1)
         }
     };
 
@@ -50,16 +49,16 @@ const UserCard = ({ name, description, imgUrl }: CardProps) => {
 
         <Card ref={cardRef} sx={{ height: '100%', width: '97.5%' }} onClick={handleClick}>
             <CardCover>
-                <Image
-                    src={imgUrl}
+                <img
+                    src={imgUrl[imageIndex]}
                     width={600}
                     height={600}
                     loading="lazy"
                     alt=""
                 />
                 <div className='absolute z-10 w-full top-[5px] h-[3px] pl-[5px] pr-[5px] items-center bg-transparent flex flex-row justify-around'>
-                    {description.map((item, index) => (
-                        <div className={`h-[4px] m-[3px] rounded-full ${index === descriptionIndex ? 'bg-slate-50' : 'bg-gray-600'}`} key={index} style={{ width: `${100 / description.length}%` }} />
+                    {imgUrl.map((item, index) => (
+                        <div className={`h-[4px] m-[3px] rounded-full ${index === imageIndex ? 'bg-slate-50' : 'bg-gray-600'}`} key={index} style={{ width: `${100 / imgUrl.length}%` }} />
                     ))}
                 </div>
             </CardCover>
@@ -76,7 +75,7 @@ const UserCard = ({ name, description, imgUrl }: CardProps) => {
                     </Typography>
                 </Stack>
                 <Typography textColor="neutral.300">
-                    {description[descriptionIndex]}
+                    {description}
                 </Typography>
             </CardContent>
         </Card>

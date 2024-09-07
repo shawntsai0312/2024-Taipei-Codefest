@@ -22,14 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="h-screen overflow-y w-screen">
-          <div className="w-full h-[48px] fixed top-0 bg-white">
-            <Headbar />
-          </div>
-          <div className="w-full h-[calc(100%-96px)] fixed overflow-y top-[48px] z-10">
+        <div className="h-screen w-screen flex flex-col">
+          <div className="flex-grow overflow-y-auto h-[calc(100%-48px)]">
             {children}
           </div>
-          <div className="w-full h-[48px] fixed flex justify-center bottom-0 bg-white">
+          <div className="h-[48px] bg-gray-100 flex items-center justify-center"/>
+          <div className="w-full h-[48px] fixed bottom-0 bg-white flex justify-center items-center">
             <Navbar />
           </div>
         </div>

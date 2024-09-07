@@ -1,227 +1,162 @@
-{
-  "activity_type": "親子活動",
-  "locations": [
-    {
-      "name": "台北市立動物園",
-      "description": "適合全家一起探索動物世界",
-      "coordinates": {
-        "latitude": 24.9985,
-        "longitude": 121.5812
-      },
-      "id": 1,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "3-4小時",
-      "rating": 4.5
+[
+  {
+    "name": "台北市立動物園",
+    "description": "適合全家一起探索動物世界",
+    "coordinates": {
+      "latitude": 24.9985,
+      "longitude": 121.5812
     },
-    {
-      "name": "兒童新樂園",
-      "description": "充滿遊樂設施的親子樂園",
-      "coordinates": {
-        "latitude": 25.0848,
-        "longitude": 121.5154
-      },
-      "id": 2,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "半天",
-      "rating": 4.4
+    "id": 1,
+    "imgUrl": [
+      "https://www.kkday.com/zh-tw/blog/wp-content/uploads/asia-taiwan-taipei-zooP1580760-%E6%8B%B7%E8%B2%9D.jpg",
+      "https://images.abic.com.tw/photoDB/post/1678937925.jpg"
+    ],
+    "price": "$",
+    "time": "3-4小時",
+    "rating": 4.5
+  },
+  {
+    "name": "兒童新樂園",
+    "description": "充滿遊樂設施的親子樂園",
+    "coordinates": {
+      "latitude": 25.0848,
+      "longitude": 121.5154
     },
-    {
-      "name": "科教館",
-      "description": "孩子探索科學的理想場所",
-      "coordinates": {
-        "latitude": 25.0953,
-        "longitude": 121.5160
-      },
-      "id": 3,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "半天",
-      "rating": 4.3
+    "id": 2,
+    "imgUrl": [
+      "https://img.kenalice.tw/2022/10/20221026211725_81.jpg",
+      "https://images.abic.com.tw/photoDB/post/1613698651.jpg"
+    ],
+    "price": "$",
+    "time": "半天",
+    "rating": 4.4
+  },
+  {
+    "name": "科教館",
+    "description": "孩子探索科學的理想場所",
+    "coordinates": {
+      "latitude": 25.0953,
+      "longitude": 121.5160
     },
-    {
-      "name": "士林官邸公園",
-      "description": "親子遊玩放鬆的綠色園區",
-      "coordinates": {
-        "latitude": 25.0965,
-        "longitude": 121.5269
-      },
-      "id": 4,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "半天",
-      "rating": 4.4
+    "id": 3,
+    "imgUrl": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/National_Taiwan_Science_Education_Center_front.jpg",
+      "https://www.welcometw.com/wp-content/uploads/2023/06/AnyConv.com__john_han11%E7%A7%91%E6%95%99%E9%A4%A8%E5%A4%A7%E5%BB%B3%EF%BC%8F%EF%A1%BFCFwhjzojf2C-681x851-1-e1687681292476.webp"
+    ],
+    "price": "$",
+    "time": "半天",
+    "rating": 4.3
+  },
+  {
+    "name": "士林官邸公園",
+    "description": "親子遊玩放鬆的綠色園區",
+    "coordinates": {
+      "latitude": 25.0965,
+      "longitude": 121.5269
     },
-    {
-      "name": "大佳河濱公園",
-      "description": "騎車、放風箏，親子共樂",
-      "coordinates": {
-        "latitude": 25.0706,
-        "longitude": 121.5324
-      },
-      "id": 5,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "免費",
-      "time": "2-3小時",
-      "rating": 4.5
+    "id": 4,
+    "imgUrl": [
+      "https://photo.travelking.com.tw/scenery/0C017A53-99A4-4A12-84DA-BBE7E1E895A7_e.jpg",
+      "https://www.travel.taipei/content/images/attractions/221287/1024x768_attractions-image-aacb63f9meqdvkusv2xijg.jpg"
+    ],
+    "price": "$",
+    "time": "半天",
+    "rating": 4.4
+  },
+  {
+    "name": "大佳河濱公園",
+    "description": "騎車、放風箏，親子共樂",
+    "coordinates": {
+      "latitude": 25.0706,
+      "longitude": 121.5324
     },
-    {
-      "name": "台北探索館",
-      "description": "認識台北歷史文化的好地方",
-      "coordinates": {
-        "latitude": 25.0376,
-        "longitude": 121.5647
-      },
-      "id": 6,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "2-3小時",
-      "rating": 4.4
+    "id": 5,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222421/?r=1637809998628",
+      "https://www.travel.taipei/content/images/attractions/222418/1024x768_attractions-image-acpzk59nxugkcbbz0qvloa.jpg"
+    ],
+    "price": "免費",
+    "time": "2-3小時",
+    "rating": 4.5
+  },
+  {
+    "name": "台北探索館",
+    "description": "認識台北歷史文化的好地方",
+    "coordinates": {
+      "latitude": 25.0376,
+      "longitude": 121.5647
     },
-    {
-      "name": "華山1914文化創意園區",
-      "description": "適合親子參加展覽和市集",
-      "coordinates": {
-        "latitude": 25.0442,
-        "longitude": 121.5290
-      },
-      "id": 7,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "依活動而定",
-      "time": "2-3小時",
-      "rating": 4.5
+    "id": 6,
+    "imgUrl": [
+      "https://pic.pimg.tw/vivi0010/1568612849-1191629719_n.jpg",
+      "https://imageproxy.pimg.tw/zoomcrop?url=https%3A%2F%2Fpic.pimg.tw%2Fcyk200%2F1687621988-1773849603-g_n.jpg&width=2868&height=2151"
+    ],
+    "price": "$",
+    "time": "2-3小時",
+    "rating": 4.4
+  },
+  {
+    "name": "華山1914文化創意園區",
+    "description": "適合親子參加展覽和市集",
+    "coordinates": {
+      "latitude": 25.0442,
+      "longitude": 121.5290
     },
-    {
-      "name": "袖珍博物館",
-      "description": "微縮模型，孩子的童話世界",
-      "coordinates": {
-        "latitude": 25.0537,
-        "longitude": 121.5347
-      },
-      "id": 8,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "2-3小時",
-      "rating": 4.4
-
+    "id": 7,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "依活動而定",
+    "time": "2-3小時",
+    "rating": 4.5
+  },
+  {
+    "name": "袖珍博物館",
+    "description": "微縮模型，孩子的童話世界",
+    "coordinates": {
+      "latitude": 25.0537,
+      "longitude": 121.5347
     },
-    {
-      "name": "天文館",
-      "description": "讓孩子探索宇宙的科學展館",
-      "coordinates": {
-        "latitude": 25.0963,
-        "longitude": 121.5200
-      },
-      "id": 9,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "$",
-      "time": "2-3小時",
-      "rating": 4.3
+    "id": 8,
+    "imgUrl": [
+      "https://www.travel.taipei/content/images/attractions/192688/1024x768_attractions-image-2ph01obu_0mvb2gvwkihnq.jpg",
+      "https://i0.wp.com/yenbaby.com/wp-content/uploads/2023/04/IMG_20230402_124659.jpg?ssl=1"
+    ],
+    "price": "$",
+    "time": "2-3小時",
+    "rating": 4.4
+  },
+  {
+    "name": "天文館",
+    "description": "讓孩子探索宇宙的科學展館",
+    "coordinates": {
+      "latitude": 25.0963,
+      "longitude": 121.5200
     },
-    {
-      "name": "象山登山步道",
-      "description": "輕鬆健行、全家欣賞台北美景",
-      "coordinates": {
-        "latitude": 25.0282,
-        "longitude": 121.5732
-      },
-      "id": 10,
-      "image1": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "image2": "https://www.travel.taipei/image/222131/?r=1637654105614",
-      "price": "免費",
-      "time": "2-3小時",
-      "rating": 4.5
-      
+    "id": 9,
+    "imgUrl": [
+      "https://cdn2.ettoday.net/images/3801/d3801836.jpg",
+      "https://www.travel.taipei/image/45018/?r=1464696720035"
+    ],
+    "price": "$",
+    "time": "2-3小時",
+    "rating": 4.3
+  },
+  {
+    "name": "象山登山步道",
+    "description": "輕鬆健行、全家欣賞台北美景",
+    "coordinates": {
+      "latitude": 25.0282,
+      "longitude": 121.5732
     },
-    {
-      "name": "木柵動物園天空步道",
-      "description": "高空俯瞰動物園全貌的步道",
-      "coordinates": {
-        "latitude": 24.9981,
-        "longitude": 121.5830
-      }
-    },
-    {
-      "name": "兒童樂園水樂園區",
-      "description": "炎熱夏日親子水上樂趣好去處",
-      "coordinates": {
-        "latitude": 25.0851,
-        "longitude": 121.5151
-      }
-    },
-    {
-      "name": "中正紀念堂廣場",
-      "description": "寬闊廣場，適合親子放風箏",
-      "coordinates": {
-        "latitude": 25.0346,
-        "longitude": 121.5212
-      }
-    },
-    {
-      "name": "台北植物園",
-      "description": "探索大自然與植物多樣性的地點",
-      "coordinates": {
-        "latitude": 25.0317,
-        "longitude": 121.5075
-      }
-    },
-    {
-      "name": "貓空纜車",
-      "description": "坐纜車欣賞美景，適合全家活動",
-      "coordinates": {
-        "latitude": 24.9801,
-        "longitude": 121.5842
-      }
-    },
-    {
-      "name": "松山文化創意園區",
-      "description": "參加親子手作和文化活動的好地點",
-      "coordinates": {
-        "latitude": 25.0443,
-        "longitude": 121.5602
-      }
-    },
-    {
-      "name": "陽明山國家公園",
-      "description": "親子近距離接觸自然的好地方",
-      "coordinates": {
-        "latitude": 25.1625,
-        "longitude": 121.5654
-      }
-    },
-    {
-      "name": "信義親子館",
-      "description": "小朋友玩樂和探索的理想空間",
-      "coordinates": {
-        "latitude": 25.0327,
-        "longitude": 121.5689
-      }
-    },
-    {
-      "name": "大安森林公園",
-      "description": "享受自然與親子活動的城市綠洲",
-      "coordinates": {
-        "latitude": 25.0309,
-        "longitude": 121.5357
-      }
-    },
-    {
-      "name": "劍潭山步道",
-      "description": "簡單登山路線，適合親子同行",
-      "coordinates": {
-        "latitude": 25.0827,
-        "longitude": 121.5196
-      }
-    }
-  ]
-}
+    "id": 10,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://bobowin.blog/wp-content/uploads/20181101095533_63.jpg"
+    ],
+    "price": "免費",
+    "time": "2-3小時",
+    "rating": 4.5
+  }
+]

@@ -58,7 +58,7 @@ const Tinder = () => {
     }, [choices])
 
     return (
-        <div className="w-full h-full justify-center items-center overflow-y relative">
+        <div className="w-full h-full justify-center items-center overflow-y overflow-x-hidden relative">
             <Deck setChoiceRate={setChoiceRate}
                 choices={choices} setChoices={setChoices}
                 currCardIndex={currCardIndex} setCurrCardIndex={setCurrCardIndex}

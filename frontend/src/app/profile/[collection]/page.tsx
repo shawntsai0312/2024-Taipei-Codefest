@@ -13,6 +13,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import IconButton from '@mui/material/IconButton';
 import { useRouter } from 'next/navigation';
 import MyCard from './myCard';
+import SlotMachine from '@/app/slot/page';
 
 const Collection = () => {
     const router = useRouter();
@@ -153,33 +154,10 @@ const Collection = () => {
                         })
                     }
                     <div
-                        className='border-4 border-taipeiPass rounded-lg mx-4 mb-6'
+                        className='border-4 border-taipeiPass rounded-lg mx-4 mb-6 flex items-center justify-center font-semibold text-lg bg-taipeiPass text-white'
                         onClick={handleCardOpen}
                     >
-                        <Card sx={{ display: 'flex' }}>
-                            <CardMedia
-                                component="img"
-                                sx={{ width: '42%', height: 140 }}
-                                image={places[0].imgUrl[0]}
-                                alt="Live from space album cover"
-                            />
-                            <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                                <CardContent sx={{ flex: '1 0 auto' }}>
-                                    <Typography
-                                        variant="h6"
-                                        component="div"
-                                        className='font-semibold'>
-                                        test
-                                    </Typography>
-                                    <Typography
-                                        variant="subtitle1"
-                                        component="div"
-                                    >
-                                        test
-                                    </Typography>
-                                </CardContent>
-                            </Box>
-                        </Card>
+                        拉霸決定今天去哪裡玩！
                     </div>
                 </List>
             </div>
@@ -199,7 +177,7 @@ const Collection = () => {
             >
                 <Fade in={cardOpen}>
                     <div className='h-full w-full flex items-center justify-center'>
-                        <MyCard
+                        {/* <MyCard
                             name='random'
                             description='random'
                             imgUrl={["https://gipo.ntu.edu.tw/uploads/member_profile/avatar/5f48f3bb1d41c8097c0000c5/Peng.jpg"]}
@@ -207,7 +185,8 @@ const Collection = () => {
                             time='0'
                             rating='0'
                             closeModal={handleCardClose}
-                        />
+                        /> */}
+                        <SlotMachine />
                     </div>
                 </Fade>
             </Modal>

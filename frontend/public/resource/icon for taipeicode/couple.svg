@@ -5,6 +5,3 @@
 	style="enable-background:new 0 0 24 24;" xml:space="preserve">
 	<path d="M13,9h-2V7h2 M13,17h-2v-6h2 M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.5,10-10S17.5,2,12,2z" />
 </svg> -->
-
-couple
-import WcIcon from '@mui/icons-material/Wc';

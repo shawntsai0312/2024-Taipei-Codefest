@@ -10,9 +10,12 @@ interface CardProps {
     name: string;
     description: string;
     imgUrl: string[];
+    price: string;
+    time: string;
+    rating: string;
 }
 
-const UserCard = ({ name, description, imgUrl }: CardProps) => {
+const UserCard = ({ name, description, imgUrl, price, time, rating }: CardProps) => {
     const [imageIndex, setImageIndex] = useState<number>(0);
 
     const cardRef = useRef<HTMLDivElement>(null);
@@ -75,7 +78,17 @@ const UserCard = ({ name, description, imgUrl }: CardProps) => {
                     </Typography>
                 </Stack>
                 <Typography textColor="neutral.300">
-                    {description}
+                    {/* {description} */}
+                    {
+                        imageIndex?
+                            
+                            <div>
+                                <div>價格：{price}</div>
+                                <div>時長：{time}</div>
+                                <div>Google評分：{rating}</div>
+                            </div>:
+                        description
+                    }
                 </Typography>
             </CardContent>
         </Card>

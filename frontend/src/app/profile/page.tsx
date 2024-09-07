@@ -44,7 +44,7 @@ const Profile = () => {
     };
     return (
         <div className="h-full w-full flex flex-col items-center justify-center">
-            <div className="h-[8%] w-full text-[28px] flex font-bold text-taipeiPass">
+            <div className="h-[7%] w-full text-[28px] flex font-bold text-taipeiPass">
                 <p className="px-8">
                     我的口袋名單
                 </p>
@@ -60,14 +60,14 @@ const Profile = () => {
                 >
                     親子活動
                 </Button>
-                <div className='w-[40%] h-[6%]'></div>
+                <div className='w-[42%] h-[6%]'></div>
                 <Button
                     className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
                     variant="contained"
                     startIcon={<MuseumIcon />}>
                     藝文活動
                 </Button>
-                <div className='w-[40%] h-[6%]'></div>
+                <div className='w-[42%] h-[6%]'></div>
                 <Button
                     className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
                     variant="contained"

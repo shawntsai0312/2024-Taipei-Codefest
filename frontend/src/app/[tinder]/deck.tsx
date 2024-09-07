@@ -1,9 +1,23 @@
 'use client'
 import Card from '../card/card'
-import users from '../../../public/resource/homeData/users.json'
+import art from '../../../public/data/art.json'
 import { useEffect, useState, useRef, Dispatch, SetStateAction } from 'react';
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
+
+interface Place {
+    name: string;
+    description: string;
+    coordinates: {
+        latitude: number;
+        longitude: number;
+    };
+    id: number;
+    imgUrl: string[];
+    price: string;
+    time: string;
+    rating: number;
+}
 
 const to = () => ({
     x: 0,
@@ -21,13 +35,14 @@ const from = () => ({
 const trans = (r: number, s: number) =>
     `perspective(1500px) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
-const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIndex }:
+const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIndex, jsonData }:
     {
         setChoiceRate: Dispatch<SetStateAction<number>>,
         choices: Array<'like' | 'dislike' | 'none'>,
         setChoices: Dispatch<SetStateAction<Array<'like' | 'dislike' | 'none'>>>,
         currCardIndex: number,
-        setCurrCardIndex: Dispatch<SetStateAction<number>>
+        setCurrCardIndex: Dispatch<SetStateAction<number>>,
+        jsonData: Place[] | null
     }) => {
 
     const [gone, setGone] = useState<Set<number>>(() => new Set())
@@ -60,7 +75,7 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
         else setRotateDirection(1);
     }, [clickPositionY])
 
-    const [props, api] = useSprings(users.length, i => ({
+    const [props, api] = useSprings(jsonData ? jsonData.length : 0, i => ({
         ...to(),
         from: from(),
     }))
@@ -125,7 +140,7 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
 
             // only the top card can be dragged
             let isGone = gone.has(index)
-            // console.log(i, dragging)
+            console.log(i)
 
             let x = 0, y = 0;
             if (isGone) {
@@ -173,6 +188,9 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
 
     return (
         <div className='w-full h-full will-change-transform flex items-center justify-center touch-none'>
+            <div className="w-[40%] h-[10%] flex justify-center items-center" onClick={() => { console.log('go to') }}>
+                go to my choices
+            </div>
             {props.map(({ x, y, rot, scale }, i) => (
                 <animated.div className='w-full h-full absolute flex will-change-transform items-center justify-center touch-none'
                     style={{
@@ -185,7 +203,7 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
                     onMouseDown={handleClick}
                     onTouchStart={handleClick}
                 >
-                    <Card name={users[i].name} description={users[i].description} imgUrl={users[i].imgUrl} />
+                    <Card name={jsonData ? jsonData[i].name : ''} description={jsonData ? jsonData[i].description : ''} imgUrl={jsonData ? jsonData[i].imgUrl : []} />
                 </animated.div>
             ))}
         </div>

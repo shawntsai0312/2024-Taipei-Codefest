@@ -1,0 +1,322 @@
+[
+  {
+    "name": "象山登山步道",
+    "description": "輕鬆健行，欣賞台北101全景的浪漫之地，高度建議在夕陽時分前往，可欣賞夕陽與夜景",
+    "coordinates": {
+      "latitude": 25.0282,
+      "longitude": 121.5732
+    },
+    "id": 1,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://jeffynallie.com/wp-content/uploads/2021/09/S__7520849.jpg"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.7
+  },
+  {
+    "name": "貓空纜車",
+    "description": "坐纜車欣賞台北夜景與美麗茶園的浪漫之旅，搭乘水晶纜車要等比較久的時間，近中午時間搭乘，没有風扇會很熱，，",
+    "coordinates": {
+      "latitude": 24.9801,
+      "longitude": 121.5842
+    },
+    "id": 2,
+    "imgUrl": [
+      "https://assetsv4.tripmoment.com/uploads/article/bannerhead/000/020/274/08acf53ced9f33f8f83c2ad61c1eaabc2873f6d323d810447d50336f.jpeg",
+      "https://www.welcometw.com/wp-content/uploads/2020/taipei/02/auroralin_photography%E2%80%A2%E8%B2%93%E7%BA%9C-1024x673.jpg"
+    ],
+    "price": "$",
+    "time": "30分鐘",
+    "rating": 4.5
+  },
+  {
+    "name": "北投溫泉",
+    "description": "泡湯放鬆，享受寧靜的溫泉之旅",
+    "coordinates": {
+      "latitude": 25.1370,
+      "longitude": 121.5070
+    },
+    "id": 3,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222576/?r=1637899269873",
+      "https://www.travel.taipei/content/images/attractions/222577/1024x768_attractions-image-nkkewgopluuzjlvqrroyaa.jpg"
+    ],
+    "price": "$$",
+    "time": "2-3小時",
+    "rating": 4.4
+  },
+  {
+    "name": "士林夜市",
+    "description": "享受台灣小吃，必吃的是豪大雞排和大腸包小腸",
+    "coordinates": {
+      "latitude": 25.0870,
+      "longitude": 121.5247
+    },
+    "id": 4,
+    "imgUrl": [
+      "https://www.travel.taipei/image/221606/?r=1637303980521",
+      "https://www.travel.taipei/content/images/attractions/221601/1024x768_attractions-image-md3doqs0yk28-exmxhkuiw.jpg"
+    ],
+    "price": "100-300元",
+    "time": "2-3小時",
+    "rating": 4.2
+  },
+  {
+    "name": "信義商圈",
+    "description": "購物、看電影、餐廳林立的繁華商圈",
+    "coordinates": {
+      "latitude": 25.0330,
+      "longitude": 121.5654
+    },
+    "id": 5,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222525/?r=1637823972146",
+      "https://www.travel.taipei/content/images/attractions/222521/1024x768_attractions-image-tjr_cssiz0kjbxv45kjfww.jpg"
+    ],
+    "price": "依活動而定",
+    "time": "半天",
+    "rating": 4.6
+  },
+  {
+    "name": "陽明山國家公園",
+    "description": "與愛人一起探索自然風光與溫泉景點，適合一日遊，晚上可以在山腰俯瞰整個台北市夜景",
+    "coordinates": {
+      "latitude": 25.1625,
+      "longitude": 121.5654
+    },
+    "id": 6,
+    "imgUrl": [
+      "https://www.travel.taipei/image/89081/?r=1511853564817",
+      "https://www.travel.taipei/image/293178/?r=1658996904385"
+    ],
+    "price": "免費",
+    "time": "一天",
+    "rating": 4.4
+  },
+  {
+    "name": "淡水老街",
+    "description": "散步老街，欣賞夕陽與海邊景色的浪漫之地，夏天無遮蔽物建議攜帶洋傘",
+    "coordinates": {
+      "latitude": 25.1715,
+      "longitude": 121.4399
+    },
+    "id": 7,
+    "imgUrl": [
+      "https://www.travel.taipei/image/363132/?r=1682409080392",
+      "https://www.travel.taipei/content/images/attractions/363130/1024x768_attractions-image-qwx-do_xx0ovlsv-suhbxq.jpg"
+    ],
+    "price": "100-300元",
+    "time": "2-3小時",
+    "rating": 4.3
+  },
+  {
+    "name": "大安森林公園",
+    "description": "城市中的綠色綠洲，適合散步與野餐，內部的生態池很有特色",
+    "coordinates": {
+      "latitude": 25.0309,
+      "longitude": 121.5357
+    },
+    "id": 8,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222058/?r=1637650550884",
+      "https://www.travel.taipei/image/222049/?r=1637650628035"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.5
+  },
+  {
+    "name": "松山文化創意園區",
+    "description": "參加展覽、逛市集的文創園區",
+    "coordinates": {
+      "latitude": 25.0443,
+      "longitude": 121.5602
+    },
+    "id": 9,
+    "imgUrl": [
+      "https://www.travel.taipei/content/images/attractions/220331/1024x768_attractions-image-8oxpbn9fk0aoufyehhvf0g.jpg",
+      "https://www.travel.taipei/content/images/attractions/220333/1024x768_attractions-image-cwv6snabhuo_jj_0g3phcg.jpg"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.2
+  },
+  {
+    "name": "國父紀念館",
+    "description": "欣賞歷史文化，並與愛人一同散步的景點",
+    "coordinates": {
+      "latitude": 25.0402,
+      "longitude": 121.5605
+    },
+    "id": 10,
+    "imgUrl": [
+      "https://www.travel.taipei/content/images/attractions/456099/1024x768_attractions-image-t9beyfp1r0-miil2_bckcw.jpg",
+      "https://www.travel.taipei/content/images/attractions/63551/1024x768_attractions-image-bworiaox-kuxzetppplvvw.jpg"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.4
+  },
+  {
+    "name": "碧湖公園",
+    "description": "浪漫湖景，適合情侶散步與劃船",
+    "coordinates": {
+      "latitude": 25.0705,
+      "longitude": 121.5907
+    },
+    "id": 11,
+    "imgUrl": [
+      "https://www.travel.taipei/content/images/attractions/179258/1024x768_attractions-image-f40ohxg22us-f_dup3wipg.jpg",
+      "https://www.travel.taipei/content/images/attractions/179267/1024x768_attractions-image-aj6lahma0k20yunzmdflaq.jpg"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.3
+  },
+  {
+    "name": "天母運動公園",
+    "description": "適合散步與運動，情侶約會的休閒之地",
+    "coordinates": {
+      "latitude": 25.1162,
+      "longitude": 121.5307
+    },
+    "id": 12,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.5
+  },
+  {
+    "name": "美麗華摩天輪",
+    "description": "搭乘摩天輪，享受夜晚台北美景",
+    "coordinates": {
+      "latitude": 25.0825,
+      "longitude": 121.5570
+    },
+    "id": 13,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "200-300元",
+    "time": "30分鐘",
+    "rating": 4.4
+  },
+  {
+    "name": "台北101",
+    "description": "登高欣賞城市全景的浪漫約會地",
+    "coordinates": {
+      "latitude": 25.0339,
+      "longitude": 121.5645
+    },
+    "id": 14,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://jeffynallie.com/wp-content/uploads/2021/09/S__7520849.jpg"
+    ],
+    "price": "依活動而定",
+    "time": "1-2小時",
+    "rating": 4.2
+  },
+  {
+    "name": "四四南村",
+    "description": "結合歷史與現代的特色村落，適合輕鬆漫步",
+    "coordinates": {
+      "latitude": 25.0327,
+      "longitude": 121.5645
+    },
+    "id": 15,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.3
+  },
+  {
+    "name": "大稻埕碼頭",
+    "description": "欣賞河岸景觀，享受浪漫的夕陽時光",
+    "coordinates": {
+      "latitude": 25.0630,
+      "longitude": 121.5100
+    },
+    "id": 16,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.4
+  },
+  {
+    "name": "華山1914文化創意園區",
+    "description": "參加展覽、音樂會的藝文約會場所",
+    "coordinates": {
+      "latitude": 25.0442,
+      "longitude": 121.5290
+    },
+    "id": 17,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "依活動而定",
+    "time": "1-2小時",
+    "rating": 4.5
+  },
+  {
+    "name": "台北植物園",
+    "description": "散步欣賞多樣植物，親近大自然的浪漫之地",
+    "coordinates": {
+      "latitude": 25.0317,
+      "longitude": 121.5075
+    },
+    "id": 18,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.3
+  },
+  {
+    "name": "劍潭山步道",
+    "description": "輕鬆登山路線，享受台北城市風景",
+    "coordinates": {
+      "latitude": 25.0827,
+      "longitude": 121.5196
+    },
+    "id": 19,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.4
+  },
+  {
+    "name": "台北市立美術館",
+    "description": "欣賞藝術展覽，享受文化氣息的浪漫場地",
+    "coordinates": {
+      "latitude": 25.0721,
+      "longitude": 121.5236
+    },
+    "id": 20,
+    "imgUrl": [
+      "https://www.travel.taipei/image/222131/?r=1637654105614",
+      "https://www.travel.taipei/image/222131/?r=1637654105614"
+    ],
+    "price": "免費",
+    "time": "1-2小時",
+    "rating": 4.5
+  }
+]

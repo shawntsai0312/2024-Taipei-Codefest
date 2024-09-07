@@ -5,7 +5,6 @@ import dynamic from 'next/dynamic';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import Box from '@mui/material/Box';
 import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import TextField from '@mui/material/TextField';
 

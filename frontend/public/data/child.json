@@ -209,29 +209,13 @@
         "rating": 4.5
     },
     {
-      "name": "陽明山國家公園",
-      "description": "親子近距離接觸自然的好地方",
-      "coordinates": {
-        "latitude": 25.1625,
-        "longitude": 121.5654
-      },
-      "id": 14,
-      "imgUrl":[ 
-        "https://www.travel.taipei/image/89081/?r=1511853564817",
-       "https://www.travel.taipei/image/293178/?r=1658996904385"
-       ] ,
-       "price": "免費",
-      "time": "一天",
-      "rating": 4.4
-    },
-    {
       "name": "大安森林公園",
         "description": "城市中的綠色綠洲，適合散步與野餐，內部的生態池很有特色",
         "coordinates": {
           "latitude": 25.0309,
           "longitude": 121.5357
         },
-        "id": 15,
+        "id": 14,
         "imgUrl":[ 
           "https://www.travel.taipei/image/222058/?r=1637650550884",
          "https://www.travel.taipei/image/222049/?r=1637650628035"

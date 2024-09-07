@@ -16,7 +16,7 @@ interface Place {
     imgUrl: string[];
     price: string;
     time: string;
-    rating: number;
+    rating: string;
 }
 
 const to = () => ({
@@ -203,7 +203,7 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
                     onMouseDown={handleClick}
                     onTouchStart={handleClick}
                 >
-                    <Card name={jsonData ? jsonData[i].name : ''} description={jsonData ? jsonData[i].description : ''} imgUrl={jsonData ? jsonData[i].imgUrl : []} />
+                    <Card name={jsonData ? jsonData[i].name : ''} description={jsonData ? jsonData[i].description : ''} imgUrl={jsonData ? jsonData[i].imgUrl : []} price={jsonData ? jsonData[i].price : ''} time={jsonData ? jsonData[i].time : ''} rating={jsonData ? jsonData[i].rating : ''} />
                 </animated.div>
             ))}
         </div>

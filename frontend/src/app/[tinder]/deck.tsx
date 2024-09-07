@@ -188,9 +188,9 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
 
     return (
         <div className='w-full h-full will-change-transform flex items-center justify-center touch-none'>
-            <div className="w-[40%] h-[10%] flex justify-center items-center" onClick={() => { console.log('go to') }}>
+            {/* <div className="w-[40%] h-[10%] flex justify-center items-center" onClick={() => { console.log('go to') }}>
                 go to my choices
-            </div>
+            </div> */}
             {props.map(({ x, y, rot, scale }, i) => (
                 <animated.div className='w-full h-full absolute flex will-change-transform items-center justify-center touch-none'
                     style={{

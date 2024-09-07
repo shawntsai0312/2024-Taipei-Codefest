@@ -40,8 +40,9 @@ const Profile = () => {
     const handlePreferenceClose = () => setPreferenceOpen(false);
 
     const handleGoToCollection1 = () => {
-        router.push('/profile/collection1');
+        router.push('/profile/collection');
     };
+
     return (
         <div className="h-full w-full flex flex-col items-center justify-center">
             <div className="h-[7%] w-full text-[28px] flex font-bold text-taipeiPass">
@@ -49,27 +50,27 @@ const Profile = () => {
                     我的口袋名單
                 </p>
             </div>
-            <div className="left-[-50%] h-[80%] w-[200%] 
+            <div className="left-[-50%] h-[80%] w-[100%] 
                 flex flex-col items-center justify-center"
             >
                 <Button
-                    className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
+                    className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
                     variant="contained"
                     startIcon={<FamilyRestroomIcon fontSize='large' />}
                     onClick={handleGoToCollection1}
                 >
                     親子活動
                 </Button>
-                <div className='w-[42%] h-[6%]'></div>
+                <div className='w-[84%] h-[6%]'></div>
                 <Button
-                    className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
+                    className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
                     variant="contained"
                     startIcon={<MuseumIcon />}>
                     藝文活動
                 </Button>
-                <div className='w-[42%] h-[6%]'></div>
+                <div className='w-[84%] h-[6%]'></div>
                 <Button
-                    className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
+                    className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
                     variant="contained"
                     startIcon={<WcIcon />}>
                     情侶約會

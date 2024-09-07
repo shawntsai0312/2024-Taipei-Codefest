@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, send_file
+import requests
 from flask_cors import CORS
 from flask_pymongo import PyMongo
 import os
@@ -6,24 +7,21 @@ import json
 from bson.json_util import dumps
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb://localhost:27017/taipei_codetest"
 CORS(app)
-mongo = PyMongo(app)
-attractions = mongo.db.attractions
+
+MONGODB_API_URL = "https://ap-southeast-1.aws.data.mongodb-api.com/app/data-pmmismi/endpoint/data/v1/action/"
+API_KEY = "xS2U2l4fA61aPcfmoMFqdXJ0pfgc4Muw5M0Duq7X5vhD2CdfwSd3NEpyR20vSXUE"
+HEADERS = {
+    "Content-Type": "application/json",
+    "Access-Control-Request-Headers": "*",
+    "api-key": API_KEY,
+}
 
 def serialize_document(document):
     # Convert MongoDB ObjectId to string if present
     if '_id' in document:
         document['_id'] = str(document['_id'])
     return document
-
-@app.route('/api/test_connection', methods=['GET'])
-def test_connection():
-    try:
-        mongo.db.command('ping')
-        return jsonify({'message': 'Connection to MongoDB successful!'}), 200
-    except Exception as e:
-        return jsonify({'error': f'Failed to connect to MongoDB: {str(e)}'}), 500
     
 @app.route('/api/init_data', methods=['GET'])
 def init_data():
@@ -42,56 +40,94 @@ def init_data():
 
     print(f"Total documents read: {len(data)}")
     try:
-        if isinstance(data, list) and data:
-            result = attractions.insert_many(data)
-            print(f"Inserted IDs: {result.inserted_ids}")
+        url = f"{MONGODB_API_URL}insertMany"
+        payload = {
+            "database": "taipei_codetest", 
+            "collection": "attractions", 
+            "dataSource": "backend",
+            "documents": data  
+        }
+        response = requests.post(url, headers=HEADERS, json=payload)
+        if response.status_code == 200:
+            return jsonify({"message": "Documents inserted successfully!", "data": response.json()})
         else:
-            return jsonify({'error': 'Data should be a non-empty list of documents'}), 400
+            return jsonify({"error": "Failed to insert documents", "details": response.text}), response.status_code
     except Exception as e:
-        print(f"Error inserting data into MongoDB: {str(e)}")
-        return jsonify({'error': 'An error occurred while inserting data into MongoDB'}), 500
-    
-    return jsonify({'message': f'{len(data)} records inserted successfully!'}), 201
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/api/generate_banner', methods=['GET'])
 def generate_banner():
     res = []
     try:
-        for i in range(1,4):
-            attraction = attractions.find({'class_id': float(i)})
-            attraction_list = [serialize_document(doc) for doc in attraction]
-            if attraction_list:
-                res.append(attraction_list)
+        for i in range(1, 4):  
+            url = f"{MONGODB_API_URL}find"
+            payload = {
+                "database": "taipei_codetest",  
+                "collection": "attractions",  
+                "dataSource": "backend",
+                "filter": {"class_id": float(i)}
+            }
+
+            response = requests.post(url, headers=HEADERS, json=payload)
+            if response.status_code == 200:
+                data = response.json()
+                documents = data.get("documents", [])
+                if documents:
+                    attraction_list = [serialize_document(doc) for doc in documents]
+                    res.append(attraction_list)
+                else:
+                    return jsonify({'error': 'Attractions not found for class_id ' + str(i)}), 404
             else:
-                return jsonify({'error': 'Attraction not found'}), 404
+                return jsonify({'error': 'Failed to fetch data', 'details': response.text}), response.status_code
     except Exception as e:
         return jsonify({'error': 'An error occurred: ' + str(e)}), 500
-    
+
+    print(len(res))
     return jsonify(res), 200
+
     
 @app.route('/api/<class_id>/<id>/fetch_data', methods=['GET'])
 def fetch_data(class_id, id):
     try:
-        attraction = attractions.find_one({'id': float(id), 'class_id': float(class_id)})
-        if attraction:
-            return dumps(attraction), 200
+        url = f"{MONGODB_API_URL}findOne"
+        payload = {
+            "database": "taipei_codetest", 
+            "collection": "attractions",  
+            "dataSource": "backend",
+            "filter": {'class_id': float(class_id), 'id': float(id)}
+        }
+        response = requests.post(url, headers=HEADERS, json=payload)
+        if response.status_code == 200:
+            data = response.json()
+            return jsonify({"message": "Document found!", "data": data}), 200
         else:
-            return jsonify({'error': 'Attraction not found'}), 404
+            return jsonify({"error": "Failed to find document", "details": response.text}), response.status_code
     except Exception as e:
-        return jsonify({'error': 'An error occurred: ' + str(e)}), 500
+        return jsonify({"error": str(e)}), 500
     
 @app.route('/api/<class_id>/<id>/<my_preference>/update_data', methods=['GET', 'POST'])
 def update_data(class_id, id, my_preference):
     try:
-        attraction = attractions.find_one({'id': float(id), 'class_id': float(class_id)})
-        if attraction:
-            attractions.update_one(
-                {'id': float(id), 'class_id': float(class_id)},
-                {'$set': {'preference': my_preference}}
-            )
-            return dumps(attraction), 200
+        url = f"{MONGODB_API_URL}updateOne"
+        update_operation = {
+            "$set": {
+                "preference": my_preference
+            }
+        }
+        payload = {
+            "database": "taipei_codetest", 
+            "collection": "attractions",  
+            "dataSource": "backend",
+            "filter": {'class_id': float(class_id), 'id': float(id)},
+            "update": update_operation
+        }
+        response = requests.post(url, headers=HEADERS, json=payload)
+
+        if response.status_code == 200:
+            data = response.json()
+            return jsonify({"message": "Document updated successfully!", "data": data}), 200
         else:
-            return jsonify({'error': 'Attraction not found'}), 404
+            return jsonify({"error": "Failed to update document", "details": response.text}), response.status_code
     except Exception as e:
         return jsonify({'error': 'An error occurred: ' + str(e)}), 500
     

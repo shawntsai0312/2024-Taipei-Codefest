@@ -81,8 +81,8 @@ def generate_banner():
                 return jsonify({'error': 'Failed to fetch data', 'details': response.text}), response.status_code
     except Exception as e:
         return jsonify({'error': 'An error occurred: ' + str(e)}), 500
-
-    print(len(res))
+    
+    print(res[0][:2])
     return jsonify(res), 200
 
     

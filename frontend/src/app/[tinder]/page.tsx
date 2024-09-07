@@ -1,7 +1,8 @@
 'use client'
 import Choicebar from "./choicebar";
+import axios from 'axios'
 import { useEffect, useState } from 'react';
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Deck from './deck';
 
 interface Place {
@@ -20,21 +21,32 @@ interface Place {
 
 const Tinder = () => {
     const pathname = usePathname();
+    const router = useRouter();
     const [jsonData, setJsonData] = useState<Place[] | null>(null);
+    const [classId, setClassId] = useState<number>(0);
 
     useEffect(() => {
-        console.log(pathname);
-        const loadJsonData = async () => {
+        const fetchData = async () => {
             try {
-                // Dynamically import JSON file based on condition
-                const loadedJsonData = await import(`../../../public/data${pathname}.json`);
-                setJsonData(loadedJsonData.default);
+                const url = `http://127.0.0.1:5000/api/generate_banner`
+                const response = await axios.get(url)
+
+                if (response.status === 200) {
+                    console.log(response.data)
+                    if (response.data) {
+                        if (pathname === '/art') setJsonData(response.data[0])
+                        if (pathname === '/child') setJsonData(response.data[1])
+                        if (pathname === '/couple') setJsonData(response.data[2])
+                    }
+                }
             } catch (error) {
-                console.error('Error loading JSON data:', error);
+                console.error('Error fetching data:', error);
             }
         };
-
-        loadJsonData();
+        fetchData();
+        if (pathname === '/art') setClassId(1)
+        if (pathname === '/child') setClassId(2)
+        if (pathname === '/couple') setClassId(3)
     }, [pathname])
 
     const [currCardIndex, setCurrCardIndex] = useState<number>(jsonData ? jsonData.length - 1 : 0);
@@ -51,10 +63,27 @@ const Tinder = () => {
 
     useEffect(() => {
         console.log(currCardIndex)
+        if (currCardIndex < 0) router.push(`profile${pathname}`)
     }, [currCardIndex])
 
     useEffect(() => {
-        console.log(choices)
+        console.log(choices)    
+        console.log(classId)
+        console.log(currCardIndex+1)
+        console.log(choices[currCardIndex+1])
+        const fetchData = async () => {
+            try {
+                const url = `http://127.0.0.1:5000/api/${classId}/${currCardIndex+1}/${choices[currCardIndex+1]}/update_data`
+                const response = await axios.get(url)
+
+                if (response.status === 200) {
+                    console.log(response.data)
+                }
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+        fetchData();
     }, [choices])
 
     return (

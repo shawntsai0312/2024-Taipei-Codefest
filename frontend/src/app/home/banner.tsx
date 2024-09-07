@@ -2,11 +2,26 @@ import React, { useRef, useEffect, useState } from 'react';
 import _ from 'lodash';
 
 interface BannerProps {
-  description: string;
-  images: string[];
+  description: number;
+  places: Place[]; // Updated to use Place array
 }
 
-const Banner: React.FC<BannerProps> = ({ description, images }) => {
+interface Place {
+    name: string;
+    description: number;
+    coordinates: {
+        latitude: number;
+        longitude: number;
+    };
+    id: number;
+    class_id: number;
+    imgUrl: string[]; // This is an array of image URLs
+    price: string;
+    time: string;
+    rating: number;
+}
+
+const Banner: React.FC<BannerProps> = ({ description, places }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const w = window.innerWidth;
   const h = window.innerHeight;
@@ -50,7 +65,7 @@ const Banner: React.FC<BannerProps> = ({ description, images }) => {
     if (!isInteracting) {
       intervalId = setInterval(() => {
         setCurrentImageIndex((prevIndex) => {
-          const nextIndex = (prevIndex + 1) % images.length;
+          const nextIndex = (prevIndex + 1) % places.length;
           if (scrollRef.current) {
             scrollRef.current.scrollTo({
               left: nextIndex * (imageWidth + w * 0.04),
@@ -67,7 +82,7 @@ const Banner: React.FC<BannerProps> = ({ description, images }) => {
         clearInterval(intervalId); // Clear interval on cleanup
       }
     };
-  }, [images.length, imageWidth, w, isInteracting]);
+  }, [places.length, imageWidth, w, isInteracting]);
 
   // UseEffect to trigger snapping after interaction ends
   useEffect(() => {
@@ -94,7 +109,18 @@ const Banner: React.FC<BannerProps> = ({ description, images }) => {
 
   return (
     <div className="flex flex-col w-full">
-      <p className="mb-2 text-lg font-bold" style={{paddingLeft: '10%'}}>{description}</p>
+      <div className='flex flex-row justify-between'>
+        <p className="mb-2 text-lg font-bold" style={{paddingLeft: '10%'}}>
+          {
+            description === 1 ? '藝文活動' :
+            description === 2 ? '親子活動' : '情侶約會'
+          }
+        </p>
+        <div className='flex flex-row w-[20%]'>
+          <p className='mt-2.5 text-xs' style={{paddingRight: '5%'}}>更多</p>
+          <img src='/resource/homeData/img/arrow_forward.png' className='mt-3' style={{ height: '10px', width: '10px' }} />
+        </div>
+      </div>
       <div className='flex flex-col w-full items-center'>
         <div className="relative w-full">
           <div
@@ -108,17 +134,17 @@ const Banner: React.FC<BannerProps> = ({ description, images }) => {
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
           >
-            {images.map((image, index) => (
+            {places.map((place, index) => (
               <img
                 key={index}
-                src={image}
+                src={place.imgUrl[0]} // Assuming you want to display the first image of each place
                 alt={`banner-${index}`}
                 className="object-cover rounded-lg shadow-lg flex-shrink-0"
                 style={{ 
                   width: imageWidth, 
                   height: imageHeight, 
                   marginLeft: `${index === 0 ? 0.1 * w : 0.02 * w}px`,
-                  marginRight: `${index === images.length - 1 ? 0.1 * w : 0.02 * w}px`
+                  marginRight: `${index === places.length - 1 ? 0.1 * w : 0.02 * w}px`
                 }}
               />
             ))}
@@ -127,7 +153,7 @@ const Banner: React.FC<BannerProps> = ({ description, images }) => {
 
         {/* Progress Bar (Dots) */}
         <div className="flex mt-2 space-x-2">
-          {images.map((_, index) => (
+          {places.map((_, index) => (
             <div
               key={index}
               onClick={() => handleDotClick(index)}

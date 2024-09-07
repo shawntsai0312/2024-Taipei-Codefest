@@ -1,0 +1,165 @@
+{
+  "activity_type": "親子活動",
+  "locations": [
+    {
+      "name": "台北市立動物園",
+      "description": "適合全家一起探索動物世界",
+      "coordinates": {
+        "latitude": 24.9985,
+        "longitude": 121.5812
+      }
+    },
+    {
+      "name": "兒童新樂園",
+      "description": "充滿遊樂設施的親子樂園",
+      "coordinates": {
+        "latitude": 25.0848,
+        "longitude": 121.5154
+      }
+    },
+    {
+      "name": "科教館",
+      "description": "孩子探索科學的理想場所",
+      "coordinates": {
+        "latitude": 25.0953,
+        "longitude": 121.5160
+      }
+    },
+    {
+      "name": "士林官邸公園",
+      "description": "親子遊玩放鬆的綠色園區",
+      "coordinates": {
+        "latitude": 25.0965,
+        "longitude": 121.5269
+      }
+    },
+    {
+      "name": "大佳河濱公園",
+      "description": "騎車、放風箏，親子共樂",
+      "coordinates": {
+        "latitude": 25.0706,
+        "longitude": 121.5324
+      }
+    },
+    {
+      "name": "台北探索館",
+      "description": "認識台北歷史文化的好地方",
+      "coordinates": {
+        "latitude": 25.0376,
+        "longitude": 121.5647
+      }
+    },
+    {
+      "name": "華山1914文化創意園區",
+      "description": "適合親子參加展覽和市集",
+      "coordinates": {
+        "latitude": 25.0442,
+        "longitude": 121.5290
+      }
+    },
+    {
+      "name": "袖珍博物館",
+      "description": "微縮模型，孩子的童話世界",
+      "coordinates": {
+        "latitude": 25.0537,
+        "longitude": 121.5347
+      }
+    },
+    {
+      "name": "天文館",
+      "description": "讓孩子探索宇宙的科學展館",
+      "coordinates": {
+        "latitude": 25.0963,
+        "longitude": 121.5200
+      }
+    },
+    {
+      "name": "象山登山步道",
+      "description": "輕鬆健行、全家欣賞台北美景",
+      "coordinates": {
+        "latitude": 25.0282,
+        "longitude": 121.5732
+      }
+    },
+    {
+      "name": "木柵動物園天空步道",
+      "description": "高空俯瞰動物園全貌的步道",
+      "coordinates": {
+        "latitude": 24.9981,
+        "longitude": 121.5830
+      }
+    },
+    {
+      "name": "兒童樂園水樂園區",
+      "description": "炎熱夏日親子水上樂趣好去處",
+      "coordinates": {
+        "latitude": 25.0851,
+        "longitude": 121.5151
+      }
+    },
+    {
+      "name": "中正紀念堂廣場",
+      "description": "寬闊廣場，適合親子放風箏",
+      "coordinates": {
+        "latitude": 25.0346,
+        "longitude": 121.5212
+      }
+    },
+    {
+      "name": "台北植物園",
+      "description": "探索大自然與植物多樣性的地點",
+      "coordinates": {
+        "latitude": 25.0317,
+        "longitude": 121.5075
+      }
+    },
+    {
+      "name": "貓空纜車",
+      "description": "坐纜車欣賞美景，適合全家活動",
+      "coordinates": {
+        "latitude": 24.9801,
+        "longitude": 121.5842
+      }
+    },
+    {
+      "name": "松山文化創意園區",
+      "description": "參加親子手作和文化活動的好地點",
+      "coordinates": {
+        "latitude": 25.0443,
+        "longitude": 121.5602
+      }
+    },
+    {
+      "name": "陽明山國家公園",
+      "description": "親子近距離接觸自然的好地方",
+      "coordinates": {
+        "latitude": 25.1625,
+        "longitude": 121.5654
+      }
+    },
+    {
+      "name": "信義親子館",
+      "description": "小朋友玩樂和探索的理想空間",
+      "coordinates": {
+        "latitude": 25.0327,
+        "longitude": 121.5689
+      }
+    },
+    {
+      "name": "大安森林公園",
+      "description": "享受自然與親子活動的城市綠洲",
+      "coordinates": {
+        "latitude": 25.0309,
+        "longitude": 121.5357
+      }
+    },
+    {
+      "name": "劍潭山步道",
+      "description": "簡單登山路線，適合親子同行",
+      "coordinates": {
+        "latitude": 25.0827,
+        "longitude": 121.5196
+      }
+    }
+  ]
+}

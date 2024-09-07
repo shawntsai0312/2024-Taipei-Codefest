@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Carpentry",
+        "value": false
+    },
+    {
+        "name": "InteriorDesign",
+        "value": true
+    },
+    {
+        "name": "Architecture",
+        "value": false
+    },
+    {
+        "name": "Sculpture",
+        "value": true
+    },
+    {
+        "name": "Painting",
+        "value": false
+    },
+    {
+        "name": "Music",
+        "value": false
+    },
+    {
+        "name": "Poetry",
+        "value": false
+    },
+    {
+        "name": "Photography",
+        "value": false
+    },
+    {
+        "name": "Comic",
+        "value": false
+    },
+    {
+        "name": "Fragrance",
+        "value": true
+    }
+]

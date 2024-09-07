@@ -1,0 +1,9 @@
+{
+    "id": "me",
+    "name": "五金行",
+    "description": [
+        "販賣各種五金材料",
+        "店面老舊沒人來，但是經營者很有熱情"
+    ],
+    "imgUrl": "/resource/profileData/me.jpg"
+}

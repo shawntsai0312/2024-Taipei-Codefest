@@ -1,0 +1,18 @@
+[
+    {
+        "id": "chen",
+        "name": "陳思穎",
+        "description": "我是陳思穎",
+        "imgUrl": "/resource/chatData/img/chen.jpg",
+        "chatDataUrl": "/resource/chatData/chat/chen.json",
+        "lastMessage": "你好"
+    },
+    {
+        "id": "damn",
+        "name": "damn damn哥",
+        "description": "我是damn damn哥",
+        "imgUrl": "/resource/chatData/img/damn.jpg",
+        "chatDataUrl": "/resource/chatData/damn/damn.json",
+        "lastMessage": "Damn"
+    }
+]

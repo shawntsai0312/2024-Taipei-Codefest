@@ -1,0 +1,147 @@
+{
+    "activity_type": "藝文活動",
+    "locations": [
+      {
+        "name": "國立故宮博物院",
+        "description": "欣賞中國古代文物的頂尖博物館",
+        "coordinates": {
+          "latitude": 25.1024,
+          "longitude": 121.5485
+        },
+        "id": 1,
+        "image1": "https://www.travel.taipei/image/221739/?r=1637566579522",
+        "image2": "https://www.travel.taipei/content/images/attractions/221740/1024x768_attractions-image-zwpqg3oij0m8egqrew_j7g.jpg",
+        "price": "$",
+        "time": "3-4小時",
+        "rating": 4.5
+      },
+      {
+        "name": "台北當代藝術館",
+        "description": "台北當代藝術作品的展示空間",
+        "coordinates": {
+          "latitude": 25.0507,
+          "longitude": 121.5183
+        },
+        "id": 2,
+        "image1": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%88%8A%E5%9D%80%EF%BC%88%E5%8E%9F%E5%BB%BA%E6%88%90%E5%B0%8F%E5%AD%B8%E6%A0%A1%EF%BC%8920180903.jpg",
+        "image2": "https://www.mocataipei.org.tw/upload/2019_03_023/20190302180629uv0xp0xYr1.jpg",
+        "price": "$",
+        "time": "2-3小時",
+        "rating": 4.4
+      },
+      {
+        "name": "台北市立美術館",
+        "description": "展覽當代藝術的著名美術館",
+        "coordinates": {
+          "latitude": 25.0721,
+          "longitude": 121.5236
+        },
+        "id": 3,
+        "image1": "https://www.travel.taipei/content/images/attractions/175616/1024x768_attractions-image-cwvqp3gdjeg-5bnl0psz3g.jpg",
+        "image2": "https://www.travel.taipei/content/images/attractions/175619/1024x768_attractions-image-xslh1_dnd0gs7y531aoeda.jpg",
+        "price": "$",
+        "time": "2-3小時",
+        "rating": 4.3
+      },
+      {
+        "name": "華山1914文化創意園區",
+        "description": "藝文活動及創意市集的熱點",
+        "coordinates": {
+          "latitude": 25.0442,
+          "longitude": 121.5290
+        },
+        "id": 4,
+        "image1": "https://www.travel.taipei/content/images/attractions/325925/1024x768_attractions-image-iowqv4h-wuu873r9nmwydw.jpg",
+        "image2": "https://www.travel.taipei/content/images/attractions/325929/1024x768_attractions-image-lcnu-yiplk-g6id3pakaww.jpg",
+        "price": "$",
+        "time": "1-2小時",
+        "rating": 4.4
+      },
+      {
+        "name": "誠品生活松菸店",
+        "description": "閱讀與藝術的結合空間，享受閱讀時光，找到共同讀書興趣",
+        "coordinates": {
+          "latitude": 25.0443,
+          "longitude": 121.5602
+        },
+        "id": 5,
+        "image1": "https://meet.eslite.com/Content/Images/Store/01_20220113133505.jpg",
+        "image2": "https://meet.eslite.com/Content/Images/Store/20163_20201126123722.jpg",
+        "price": "$",
+        "time": "1-2小時",  
+        "rating": 4.4
+      },
+      {
+        "name": "朱銘美術館",
+        "description": "欣賞現代雕塑作品的理想去處",
+        "coordinates": {
+          "latitude": 25.1754,
+          "longitude": 121.5821
+        },
+        "id": 6,
+        "image1": "https://comet.noonspace.com/w62/juming/MsgInfo/mainhomeBanner1.jpg",
+        "image2": "https://clairelin.tw/wp-content/uploads/2019/11/%E6%9C%B1%E9%8A%981.jpg",
+        "price": "$",
+        "time": "1-2小時",
+        "rating": 4.4
+      },
+      {
+        "name": "中山站文創市集",
+        "description": "設計師和手工藝品的創意市集",
+        "coordinates": {
+          "latitude": 25.0465,
+          "longitude": 121.5156
+        },
+        "id": 7,
+        "image1": "https://img.shoplineapp.com/media/image_clips/653f617d8bc29100115dc4eb/original.jpg?1698652541",
+        "image2": "https://cc.tvbs.com.tw/img/program/upload/2023/04/21/20230421002859-38a43e6a.jpg",
+        "price": "$",
+        "time": "1-2小時",
+        "rating": 4.4
+      },
+      {
+        "name": "四四南村落文化沙龍",
+        "description": "藝術與文化交流的場地",
+        "coordinates": {
+          "latitude": 25.0253,
+          "longitude": 121.5310
+        },
+        "id": 8,
+        "image1": "https://www.travel.taipei/content/images/attractions/223039/1024x768_attractions-image-mq4x586hqkgj4wuk0wdaqq.jpg",
+        "image2": "https://anantrips.com/wp-content/uploads/2020/02/2020020304241745.jpg",
+        "price": "$",
+        "time": "1-2小時",
+        "rating": 4.4
+
+      },
+      {
+        "name": "北藝中心",
+        "description": "台北現代表演藝術的重要場所",
+        "coordinates": {
+          "latitude": 25.0621,
+          "longitude": 121.5167
+        },
+        "id": 9,
+        "image1": "https://taipeiecon.taipei/UpFiles/1/EconNews_Pics1202/%E5%B8%82%E6%94%BF1-1%EF%BC%9A%E8%87%BA%E5%8C%97%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83%E5%A4%96%E8%A7%80.jpg",
+        "image2": "https://cc.tvbs.com.tw/img/upload/2021/06/22/20210622154431-67346bb9.jpg",
+        "price": "$",
+        "time": "依活動而定",
+        "rating": 4.4
+      },
+      {
+        "name": "台北流行音樂中心",
+        "description": "欣賞頂尖音樂演出的好選擇",
+        "coordinates": {
+          "latitude": 25.0355,
+          "longitude": 121.5230
+        },
+        "id": 10,
+        "image1": "https://www.travel.taipei/content/images/attractions/193182/1024x768_attractions-image-ph0ig0thkuklxzjtdw16ya.jpg",
+        "image2": "https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202002/5E4176971F4621581348503.jpeg",
+        "price": "$",
+        "time": "依活動而定",
+        "rating": 4.4
+      }
+    ]
+  }
+  

@@ -107,6 +107,10 @@ const Banner: React.FC<BannerProps> = ({ description, places }) => {
     }
   };
 
+  const handleImageClick = (place: Place) =>{
+    console.log(place)
+  }
+
   return (
     <div className="flex flex-col w-full">
       <div className='flex flex-row justify-between'>
@@ -140,6 +144,7 @@ const Banner: React.FC<BannerProps> = ({ description, places }) => {
                 src={place.imgUrl[0]} // Assuming you want to display the first image of each place
                 alt={`banner-${index}`}
                 className="object-cover rounded-lg shadow-lg flex-shrink-0"
+                onMouseDown={handleImageClick(place)}
                 style={{ 
                   width: imageWidth, 
                   height: imageHeight, 

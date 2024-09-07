@@ -56,7 +56,7 @@ const Navbar = () => {
                 pages.map((page, index) =>
                     <div
                         className='h-max w-8 py-1 cursor-pointer transition duration-200 ease-in-out'
-                        style={pathname.includes(page.path) ? { fill: '#ff4458' } : { fill: '#7c8591' }}
+                        style={pathname.includes(page.path) ? { fill: '#5AB4C5' } : { fill: '#ADB8BE' }}
                         onClick={() => router.push(page.path)}
                         key={index}
                     >

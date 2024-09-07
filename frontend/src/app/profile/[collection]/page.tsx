@@ -1,22 +1,9 @@
 'use client'
 import { useState } from 'react';
-import SettingsIcon from '@mui/icons-material/Settings';
-import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
-import TuneIcon from '@mui/icons-material/Tune';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Backdrop from '@mui/material/Backdrop';
-
-import Button from '@mui/material/Button';
-import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom';
-import MuseumIcon from '@mui/icons-material/Museum';
-import WcIcon from '@mui/icons-material/Wc';
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import Divider from '@mui/material/Divider';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -25,8 +12,9 @@ import Typography from '@mui/material/Typography';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import IconButton from '@mui/material/IconButton';
 import { useRouter } from 'next/navigation';
+import MyCard from './myCard';
 
-const Collection1 = () => {
+const Collection = () => {
     const router = useRouter();
 
     const places = [
@@ -116,6 +104,10 @@ const Collection1 = () => {
         router.push('/profile');
     };
 
+    const [cardOpen, setCardOpen] = useState(false);
+    const handleCardOpen = () => setCardOpen(true);
+    const handleCardClose = () => setCardOpen(false);
+
     return (
         <div className="w-full flex flex-col items-center justify-center">
             <div className="h-[10%] w-full text-[28px] flex items-center font-bold text-taipeiPass px-4">
@@ -160,11 +152,64 @@ const Collection1 = () => {
                             )
                         })
                     }
-
+                    <div
+                        className='border-4 border-taipeiPass rounded-lg mx-4 mb-6'
+                        onClick={handleCardOpen}
+                    >
+                        <Card sx={{ display: 'flex' }}>
+                            <CardMedia
+                                component="img"
+                                sx={{ width: '42%', height: 140 }}
+                                image={places[0].imgUrl[0]}
+                                alt="Live from space album cover"
+                            />
+                            <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                                <CardContent sx={{ flex: '1 0 auto' }}>
+                                    <Typography
+                                        variant="h6"
+                                        component="div"
+                                        className='font-semibold'>
+                                        test
+                                    </Typography>
+                                    <Typography
+                                        variant="subtitle1"
+                                        component="div"
+                                    >
+                                        test
+                                    </Typography>
+                                </CardContent>
+                            </Box>
+                        </Card>
+                    </div>
                 </List>
             </div>
+            <Modal
+                className='flex items-center justify-center'
+                open={cardOpen}
+                onClose={handleCardClose}
+                closeAfterTransition
+                aria-labelledby="myCard"
+                aria-describedby="this is my card"
+                slots={{ backdrop: Backdrop }}
+                slotProps={{
+                    backdrop: {
+                        timeout: 500,
+                    },
+                }}
+            >
+                <Fade in={cardOpen}>
+                    <div className='h-full w-full flex items-center justify-center'>
+                        <MyCard
+                            name='random'
+                            description='random'
+                            imgUrl={["https://gipo.ntu.edu.tw/uploads/member_profile/avatar/5f48f3bb1d41c8097c0000c5/Peng.jpg"]}
+                            closeModal={handleCardClose}
+                        />
+                    </div>
+                </Fade>
+            </Modal>
         </div>
     )
 }
 
-export default Collection1;
+export default Collection;

@@ -1,5 +1,5 @@
 'use client'
-import Card from '../card/card'
+import Card from '../../card/card'
 import { useEffect, useState, useRef } from 'react';
 import { useSpring, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
@@ -22,8 +22,8 @@ const trans = (r: number, s: number) =>
 
 interface MyCardProps {
     name: string;
-    description: string[];
-    imgUrl: string;
+    description: string;
+    imgUrl: string[];
     closeModal: () => void;
 }
 

@@ -1,47 +1,27 @@
 'use client'
-import { useState } from 'react';
-import Avatar from '@mui/material/Avatar';
-import SettingsIcon from '@mui/icons-material/Settings';
-import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
-import TuneIcon from '@mui/icons-material/Tune';
-import Modal from '@mui/material/Modal';
-import Fade from '@mui/material/Fade';
-import Backdrop from '@mui/material/Backdrop';
-import me from '../../../public/resource/profileData/me.json'
-import MyCard from './myCard';
-import Setting from './setting';
-import Edit from './edit';
-import Preference from './preference';
 
 import { useRouter } from 'next/navigation';
-import Button from '@mui/material/Button';
 import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom';
 import MuseumIcon from '@mui/icons-material/Museum';
 import WcIcon from '@mui/icons-material/Wc';
 
+const tinderType = [
+    {
+        type: "art",
+        icon: <MuseumIcon sx={{ height: '80%', width: '100%' }} />
+    },
+    {
+        type: "child",
+        icon: <FamilyRestroomIcon sx={{ height: '80%', width: '100%' }} />
+    },
+    {
+        type: "couple",
+        icon: <WcIcon sx={{ height: '80%', width: '100%' }} />
+    }
+]
+
 const Profile = () => {
     const router = useRouter();
-
-    const [cardOpen, setCardOpen] = useState(false);
-    const handleCardOpen = () => setCardOpen(true);
-    const handleCardClose = () => setCardOpen(false);
-
-    const [settingOpen, setSettingOpen] = useState(false);
-    const handleSettingOpen = () => setSettingOpen(true);
-    const handleSettingClose = () => setSettingOpen(false);
-
-
-    const [editOpen, setEditOpen] = useState(false);
-    const handleEditOpen = () => setEditOpen(true);
-    const handleEditClose = () => setEditOpen(false);
-
-    const [preferenceOpen, setPreferenceOpen] = useState(false);
-    const handlePreferenceOpen = () => setPreferenceOpen(true);
-    const handlePreferenceClose = () => setPreferenceOpen(false);
-
-    const handleGoToCollection1 = () => {
-        router.push('/profile/collection');
-    };
 
     return (
         <div className="h-full w-full flex flex-col items-center justify-center">
@@ -51,30 +31,22 @@ const Profile = () => {
                 </p>
             </div>
             <div className="left-[-50%] h-[80%] w-[100%] 
-                flex flex-col items-center justify-center"
+                flex flex-col items-center justify-around"
             >
-                <Button
-                    className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
-                    variant="contained"
-                    startIcon={<FamilyRestroomIcon fontSize='large' />}
-                    onClick={handleGoToCollection1}
-                >
-                    親子活動
-                </Button>
-                <div className='w-[84%] h-[6%]'></div>
-                <Button
-                    className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
-                    variant="contained"
-                    startIcon={<MuseumIcon />}>
-                    藝文活動
-                </Button>
-                <div className='w-[84%] h-[6%]'></div>
-                <Button
-                    className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
-                    variant="contained"
-                    startIcon={<WcIcon />}>
-                    情侶約會
-                </Button>
+                {
+                    tinderType.map(each => {
+                        return (
+                            <div
+                                className="w-[84%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass flex items-center justify-center"
+                                onClick={() => router.push(`/profile/${each.type}`)}
+                            >
+                                {
+                                    each.type
+                                }
+                            </div>
+                        )
+                    })
+                }
             </div>
         </div>
     )

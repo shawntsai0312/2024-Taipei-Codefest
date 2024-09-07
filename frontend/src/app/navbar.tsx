@@ -54,7 +54,7 @@ const Navbar = () => {
     return (
         <div className='h-[44px] w-full mt-[2px] mb-[2px] flex items-center fixed justify-around bg-white ' >
             {
-                pathname.includes('/signup') ? <></> :
+                // pathname.includes('/signup') ? <></> :
 
                     pages.map((page, index) =>
                         <div

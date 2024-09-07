@@ -16,6 +16,10 @@ const config: Config = {
       colors: {
         taipeiPass: '#5AB4C5',
       },
+      clipPath: {
+        'trapezoid-left': 'polygon(0 0, 60% 0, 40% 100%, 0 100%)',
+        'trapezoid-right': 'polygon(60% 0, 100% 0, 100% 100%, 40% 100%)',
+      },
     },
   },
   plugins: [

@@ -99,12 +99,12 @@ const HomePage = () => {
     { id: 2, lat: 25.037671, lng: 121.540 },
     { id: 3, lat: 25.032671, lng: 121.562427 },
   ];
-  const icon = {
-    url: pinIcon,  // The path to your image file
-    scaledSize: new window.google.maps.Size(40, 40),  // Scale the icon
-    origin: new window.google.maps.Point(0, 0),
-    anchor: new window.google.maps.Point(20, 40),  // Adjust the anchor
-  };
+  // const icon = {
+  //   url: pinIcon,  // The path to your image file
+  //   scaledSize: new window.google.maps.Size(40, 40),  // Scale the icon
+  //   origin: new window.google.maps.Point(0, 0),
+  //   anchor: new window.google.maps.Point(20, 40),  // Adjust the anchor
+  // };
 
   return (
     <div className="w-full h-full border-[2px] border-[#330c0c]">
@@ -120,7 +120,7 @@ const HomePage = () => {
             <MarkerF
               key={location.id}
               position={{ lat: location.lat, lng: location.lng }}
-              icon={icon} // You can set your custom pin icon here
+              // icon={icon} // You can set your custom pin icon here
             />
           ))}
         </GoogleMap>

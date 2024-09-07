@@ -142,7 +142,7 @@ def fetch_like_data(class_id):
             "filter": {'class_id': float(class_id), 'preference': "like"},
         }
         response = requests.post(url, headers=HEADERS, json=payload)
-
+        print(response)
         if response.status_code == 200 and response.json is not None:
             data = response.json()
             return jsonify({"message": "Liked Data fetched successfully!", "data": data}), 200

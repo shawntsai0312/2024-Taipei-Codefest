@@ -7,13 +7,15 @@
         "longitude": 121.5812
       },
       "id": 1,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ],
        "price": "$",
       "time": "3-4小時",
-      "rating": 4.5
+      "rating": 4.5,
+      "preference": "dislike"
     },
     {
       "name": "兒童新樂園",
@@ -23,13 +25,15 @@
         "longitude": 121.5154
       },
       "id": 2,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ],
        "price": "$",
       "time": "半天",
-      "rating": 4.4
+      "rating": 4.4,
+      "preference": "dislike"
     },
     {
       "name": "科教館",
@@ -39,13 +43,15 @@
         "longitude": 121.5160
       },
       "id": 3,
+      "class_id": 2,
       "imgUrl":[
          "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ],
        "price": "$",
       "time": "半天",
-      "rating": 4.3
+      "rating": 4.3,
+      "preference": "dislike"
     },
     {
       "name": "士林官邸公園",
@@ -55,13 +61,15 @@
         "longitude": 121.5269
       },
       "id": 4,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,
        "price": "$",
       "time": "半天",
-      "rating": 4.4
+      "rating": 4.4,
+      "preference": "dislike"
     },
     {
       "name": "大佳河濱公園",
@@ -71,13 +79,15 @@
         "longitude": 121.5324
       },
       "id": 5,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,
        "price": "免費",
       "time": "2-3小時",
-      "rating": 4.5
+      "rating": 4.5,
+      "preference": "dislike"
     },
     {
       "name": "台北探索館",
@@ -87,13 +97,15 @@
         "longitude": 121.5647
       },
       "id": 6,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,
        "price": "$",
       "time": "2-3小時",
-      "rating": 4.4
+      "rating": 4.4,
+      "preference": "dislike"
     },
     {
       "name": "華山1914文化創意園區",
@@ -103,13 +115,15 @@
         "longitude": 121.5290
       },
       "id": 7,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,
        "price": "依活動而定",
       "time": "2-3小時",
-      "rating": 4.5
+      "rating": 4.5,
+      "preference": "dislike"
     },
     {
       "name": "袖珍博物館",
@@ -119,13 +133,15 @@
         "longitude": 121.5347
       },
       "id": 8,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,
        "price": "$",
       "time": "2-3小時",
-      "rating": 4.4
+      "rating": 4.4,
+      "preference": "dislike"
 
     },
     {
@@ -136,13 +152,15 @@
         "longitude": 121.5200
       },
       "id": 9,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,
        "price": "$",
       "time": "2-3小時",
-      "rating": 4.3
+      "rating": 4.3,
+      "preference": "dislike"
     },
     {
       "name": "象山登山步道",
@@ -152,12 +170,14 @@
         "longitude": 121.5732
       },
       "id": 10,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/222131/?r=1637654105614",
        "https://www.travel.taipei/image/222131/?r=1637654105614"
        ] ,"price": "免費",
       "time": "2-3小時",
-      "rating": 4.5
+      "rating": 4.5,
+      "preference": "dislike"
       
     },
     {
@@ -168,13 +188,15 @@
         "longitude": 121.5373
       },
       "id": 11,
+      "class_id": 2,
       "imgUrl":[ 
         "https://cdn.walkerland.com.tw/images/upload/poi/p3251/m37560/4e00bd7377f53e4d0e655e58036bdc07db932127.jpg",
        "https://res.klook.com/image/upload/c_fill,w_750,h_563/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/m3i91oudiv3su5cxidzr.jpg"
     ],
     "price": "$",
     "time": "3-4小時",
-    "rating": 4.3    
+    "rating": 4.3  ,
+      "preference": "dislike"  
       },
     {
       "name": "台北植物園",
@@ -184,13 +206,15 @@
         "longitude": 121.5075
       },
       "id": 12,
+      "class_id": 2,
       "imgUrl":[ 
         "https://i0.wp.com/boo2k.com/wp-content/uploads/2055/04/2K4A0356.jpg?resize=860%2C573&ssl=1",
        "https://www.kkday.com/zh-tw/blog/wp-content/uploads/2022/09/shutterstock_1766501912.jpg"
        ] ,
        "price": "免費",
       "time": "1-2小時",
-      "rating": 4.3
+      "rating": 4.3,
+      "preference": "dislike"
     },
     {
       "name": "貓空纜車",
@@ -200,13 +224,15 @@
           "longitude": 121.5842
         },
         "id": 13,
+        "class_id": 2,
         "imgUrl":[ 
           "https://assetsv4.tripmoment.com/uploads/article/bannerhead/000/020/274/08acf53ced9f33f8f83c2ad61c1eaabc2873f6d323d810447d50336f.jpeg",
          "https://www.welcometw.com/wp-content/uploads/2020/taipei/02/auroralin_photography%E2%80%A2%E8%B2%93%E7%BA%9C-1024x673.jpg"
          ] ,
          "price": "$",
         "time": "30分鐘",
-        "rating": 4.5
+        "rating": 4.5,
+      "preference": "dislike"
     },
     {
       "name": "陽明山國家公園",
@@ -216,13 +242,15 @@
         "longitude": 121.5654
       },
       "id": 14,
+      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/89081/?r=1511853564817",
        "https://www.travel.taipei/image/293178/?r=1658996904385"
        ] ,
        "price": "免費",
       "time": "一天",
-      "rating": 4.4
+      "rating": 4.4,
+      "preference": "dislike"
     },
     {
       "name": "大安森林公園",
@@ -232,13 +260,15 @@
           "longitude": 121.5357
         },
         "id": 15,
+        "class_id": 2,
         "imgUrl":[ 
           "https://www.travel.taipei/image/222058/?r=1637650550884",
          "https://www.travel.taipei/image/222049/?r=1637650628035"
          ],
           "price": "免費",
         "time": "1-2小時",
-        "rating": 4.5
+        "rating": 4.5,
+      "preference": "dislike"
     }
   ]
 

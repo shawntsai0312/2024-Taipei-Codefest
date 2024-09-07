@@ -242,15 +242,13 @@
         "longitude": 121.5654
       },
       "id": 14,
-      "class_id": 2,
       "imgUrl":[ 
         "https://www.travel.taipei/image/89081/?r=1511853564817",
        "https://www.travel.taipei/image/293178/?r=1658996904385"
        ] ,
        "price": "免費",
       "time": "一天",
-      "rating": 4.4,
-      "preference": "dislike"
+      "rating": 4.4
     },
     {
       "name": "大安森林公園",
@@ -260,7 +258,6 @@
           "longitude": 121.5357
         },
         "id": 15,
-        "class_id": 2,
         "imgUrl":[ 
           "https://www.travel.taipei/image/222058/?r=1637650550884",
          "https://www.travel.taipei/image/222049/?r=1637650628035"

@@ -1,5 +1,5 @@
 'use client'
-import Card from '../card/card'
+import Card from '../../card/card'
 import { useEffect, useState, useRef } from 'react';
 import { useSpring, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
@@ -22,12 +22,15 @@ const trans = (r: number, s: number) =>
 
 interface MyCardProps {
     name: string;
-    description: string[];
-    imgUrl: string;
+    description: string;
+    imgUrl: string[];
+    price: string;
+    time: string;
+    rating: string;
     closeModal: () => void;
 }
 
-const MyCard = ({ name, description, imgUrl, closeModal }: MyCardProps) => {
+const MyCard = ({ name, description, imgUrl, price, time, rating, closeModal }: MyCardProps) => {
 
     const animatedDivRef = useRef<HTMLDivElement>(null);
     const [clickPositionY, setClickPositionY] = useState<number>(0);
@@ -113,7 +116,7 @@ const MyCard = ({ name, description, imgUrl, closeModal }: MyCardProps) => {
                 onMouseDown={handleClick}
                 onTouchStart={handleClick}
             >
-                <Card name={name} description={description} imgUrl={imgUrl} />
+                <Card name={name} description={description} imgUrl={imgUrl} price={price} time={time} rating={rating} />
             </animated.div>
 
         </div>

@@ -11,9 +11,9 @@
       "https://www.kkday.com/zh-tw/blog/wp-content/uploads/asia-taiwan-taipei-zooP1580760-%E6%8B%B7%E8%B2%9D.jpg",
       "https://images.abic.com.tw/photoDB/post/1678937925.jpg"
     ],
-    "price": "$",
+    "price": "價格：$",
     "time": "3-4小時",
-    "rating": 4.5
+    "rating": "Google評分：4.5"
   },
   {
     "name": "兒童新樂園",
@@ -27,9 +27,9 @@
       "https://img.kenalice.tw/2022/10/20221026211725_81.jpg",
       "https://images.abic.com.tw/photoDB/post/1613698651.jpg"
     ],
-    "price": "$",
+    "price": "價格：$$",
     "time": "半天",
-    "rating": 4.4
+    "rating": "Google評分：4.4"
   },
   {
     "name": "科教館",
@@ -43,9 +43,9 @@
       "https://upload.wikimedia.org/wikipedia/commons/4/41/National_Taiwan_Science_Education_Center_front.jpg",
       "https://www.welcometw.com/wp-content/uploads/2023/06/AnyConv.com__john_han11%E7%A7%91%E6%95%99%E9%A4%A8%E5%A4%A7%E5%BB%B3%EF%BC%8F%EF%A1%BFCFwhjzojf2C-681x851-1-e1687681292476.webp"
     ],
-    "price": "$",
+    "price": "價格：$",
     "time": "半天",
-    "rating": 4.3
+    "rating": "Google評分：4.3"
   },
   {
     "name": "士林官邸公園",
@@ -59,9 +59,9 @@
       "https://photo.travelking.com.tw/scenery/0C017A53-99A4-4A12-84DA-BBE7E1E895A7_e.jpg",
       "https://www.travel.taipei/content/images/attractions/221287/1024x768_attractions-image-aacb63f9meqdvkusv2xijg.jpg"
     ],
-    "price": "$",
+    "price": "價格：$",
     "time": "半天",
-    "rating": 4.4
+    "rating": "Google評分：4.4"
   },
   {
     "name": "大佳河濱公園",
@@ -75,9 +75,9 @@
       "https://www.travel.taipei/image/222421/?r=1637809998628",
       "https://www.travel.taipei/content/images/attractions/222418/1024x768_attractions-image-acpzk59nxugkcbbz0qvloa.jpg"
     ],
-    "price": "免費",
+    "price": "價格：免費",
     "time": "2-3小時",
-    "rating": 4.5
+    "rating": "Google評分：4.5"
   },
   {
     "name": "台北探索館",
@@ -91,9 +91,9 @@
       "https://pic.pimg.tw/vivi0010/1568612849-1191629719_n.jpg",
       "https://imageproxy.pimg.tw/zoomcrop?url=https%3A%2F%2Fpic.pimg.tw%2Fcyk200%2F1687621988-1773849603-g_n.jpg&width=2868&height=2151"
     ],
-    "price": "$",
+    "price": "價格：$",
     "time": "2-3小時",
-    "rating": 4.4
+    "rating": "Google評分：4.4"
   },
   {
     "name": "華山1914文化創意園區",
@@ -107,9 +107,9 @@
       "https://www.travel.taipei/image/222131/?r=1637654105614",
       "https://www.travel.taipei/image/222131/?r=1637654105614"
     ],
-    "price": "依活動而定",
+    "price": "價格：依活動而定",
     "time": "2-3小時",
-    "rating": 4.5
+    "rating": "Google評分：4.5"
   },
   {
     "name": "袖珍博物館",
@@ -123,9 +123,9 @@
       "https://www.travel.taipei/content/images/attractions/192688/1024x768_attractions-image-2ph01obu_0mvb2gvwkihnq.jpg",
       "https://i0.wp.com/yenbaby.com/wp-content/uploads/2023/04/IMG_20230402_124659.jpg?ssl=1"
     ],
-    "price": "$",
+    "price": "價格：$",
     "time": "2-3小時",
-    "rating": 4.4
+    "rating": "Google評分：4.4"
   },
   {
     "name": "天文館",
@@ -139,9 +139,9 @@
       "https://cdn2.ettoday.net/images/3801/d3801836.jpg",
       "https://www.travel.taipei/image/45018/?r=1464696720035"
     ],
-    "price": "$",
+    "price": "價格：$",
     "time": "2-3小時",
-    "rating": 4.3
+    "rating": "Google評分：4.3"
   },
   {
     "name": "象山登山步道",
@@ -155,8 +155,8 @@
       "https://www.travel.taipei/image/222131/?r=1637654105614",
       "https://bobowin.blog/wp-content/uploads/20181101095533_63.jpg"
     ],
-    "price": "免費",
+    "price": "價格：免費",
     "time": "2-3小時",
-    "rating": 4.5
+    "rating": "Google評分：4.5"
   }
 ]

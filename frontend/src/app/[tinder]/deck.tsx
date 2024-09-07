@@ -4,6 +4,7 @@ import art from '../../../public/data/art.json'
 import { useEffect, useState, useRef, Dispatch, SetStateAction } from 'react';
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
+import { useRouter, usePathname } from 'next/navigation';
 
 interface Place {
     name: string;
@@ -44,6 +45,9 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
         setCurrCardIndex: Dispatch<SetStateAction<number>>,
         jsonData: Place[] | null
     }) => {
+
+    const router = useRouter();
+    const pathname = usePathname();
 
     const [gone, setGone] = useState<Set<number>>(() => new Set())
 
@@ -188,7 +192,7 @@ const Deck = ({ setChoiceRate, choices, setChoices, currCardIndex, setCurrCardIn
 
     return (
         <div className='w-full h-full will-change-transform flex items-center justify-center touch-none'>
-            <div className="w-[40%] h-[10%] flex justify-center items-center" onClick={() => { console.log('go to') }}>
+            <div className="w-[40%] h-[10%] flex justify-center items-center" onClick={() => { router.push(`/profile${pathname}`) }}>
                 go to my choices
             </div>
             {props.map(({ x, y, rot, scale }, i) => (

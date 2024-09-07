@@ -3,6 +3,7 @@ import Choicebar from "./choicebar";
 import { useEffect, useState } from 'react';
 import Deck from './deck';
 import users from '../../../public/resource/homeData/users.json'
+import BannerSection from './bannerSection';
 
 const Home = () => {
     const [currCardIndex, setCurrCardIndex] = useState<number>(users.length - 1);
@@ -18,8 +19,17 @@ const Home = () => {
     }, [currCardIndex])
 
     return (
-        <div className="justify-center items-center h-full w-full overflow-y relative">
-            <Deck setChoiceRate={setChoiceRate}
+        <div className="justify-center items-center h-full w-full relative">
+            <div className="h-[10%]" color="blue">
+                top
+            </div>
+            <div className="h-[17%]" color="red">
+                top
+            </div>
+            <div className="h-[83%]">
+                <BannerSection />
+            </div>
+            {/* <Deck setChoiceRate={setChoiceRate}
                 choices={choices} setChoices={setChoices}
                 currCardIndex={currCardIndex} setCurrCardIndex={setCurrCardIndex}
             />
@@ -28,7 +38,7 @@ const Home = () => {
                     currCardIndex={currCardIndex} setCurrCardIndex={setCurrCardIndex}
                     choices={choices} setChoices={setChoices}
                 />
-            </div>
+            </div> */}
         </div>
     )
 }

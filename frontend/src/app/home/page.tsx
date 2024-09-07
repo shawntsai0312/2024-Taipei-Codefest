@@ -1,32 +1,35 @@
 'use client'
 import BannerSection from './bannerSection';
 import * as React from 'react';
-import { useRouter, useParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
+
 const tinderType = [
     {
         type: "art",
-        icon: <img src='/resource/icon for taipeicode/art.png' alt="art" style={{ height: '80%', width: '80%' }} />
+        title: '藝文活動',
+        icon: <img src='/resource/icon for taipeicode/art.png' alt="art" style={{ height: '40px', width: '40px' }} />
     },
     {
         type: "child",
-        icon: <img src='/resource/icon for taipeicode/child.png' alt="art" style={{ height: '80%', width: '80%' }} />
+        title: '親子活動',
+        icon: <img src='/resource/icon for taipeicode/child.png' alt="art" style={{ height: '40px', width: '40px' }} />
     },
     {
         type: "couple",
-        icon: <img src='/resource/icon for taipeicode/couple.png' alt="art" style={{ height: '80%', width: '80%' }} />
+        title: '情侶約會',
+        icon: <img src='/resource/icon for taipeicode/couple.png' alt="art" style={{ height: '40px', width: '40px' }} />
     }
 ]
 
 const Home = () => {
-
     const router = useRouter();
 
     return (
         <div className="justify-center items-center h-full w-full relative">
-            <div className='h-[10%] bg-[#555555]'>
+            <div className='h-[10%] bg-[#eeeeee]'>
                 top
             </div>
-            <div className="w-full h-[14%] flex row justify-around items-center bg-[#eeeeee]">
+            <div className="w-full h-[10%] mt-2 flex row items-center bg-[#ffffff] justify-center space-x-2">
                 {
                     tinderType.map(each => {
                         return (
@@ -35,26 +38,10 @@ const Home = () => {
                                 onClick={() => router.push(`/${each.type}`)}
                                 key={each.type}
                             >
-                                {
-                                    each.icon
-                                }
-                            </div>
-                        )
-                    })
-                }
-            </div>
-            <div className="w-full h-[3%] flex row justify-around items-center bg-[#eeeeee]">
-                {
-                    tinderType.map(each => {
-                        return (
-                            <div
-                                className='w-[30%] h-full flex justify-center items-center flex-col'
-                                onClick={() => router.push(`/${each.type}`)}
-                                key={each.type}
-                            >
-                                {
-                                    each.type
-                                }
+                                <div className="w-[100%] text-xs h-16 bg-[#ffffff] rounded-lg flex justify-center items-center flex-col shadow-lg outline outline-[#DBF1F5]">
+                                    {each.icon}
+                                    {each.title}
+                                </div>
                             </div>
                         )
                     })

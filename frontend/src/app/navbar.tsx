@@ -12,7 +12,7 @@ const pages: PageProps[] = [
     {
         title: 'Home',
         path: '/home',
-        svg: <img src='/resource/icon for taipeicode/home.svg' alt="art" style={{ height: '80%', width: '100%' }} />
+        svg: <img src='/resource/icon for taipeicode/home.svg' alt="art" style={{ height: '80%', width: '100%' }}/>
     },
     {
         title: 'Map',
@@ -31,11 +31,11 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className='h-[44px] w-full mt-[2px] mb-[2px] flex items-center fixed justify-around bg-white ' >
+        <div className='h-[44px] w-full mt-[2px] mb-[2px] flex items-center fixed justify-around bg-white' >
             {
                 pages.map((page, index) =>
                     <div
-                        className='h-max w-8 py-1 cursor-pointer transition duration-200 ease-in-out'
+                        className='h-max w-8 py-1 cursor-pointer transition duration-200 ease-in-out text-center'
                         style={pathname.includes(page.path) ? { fill: '#5AB4C5' } : { fill: '#ADB8BE' }}
                         onClick={() => router.push(page.path)}
                         key={index}

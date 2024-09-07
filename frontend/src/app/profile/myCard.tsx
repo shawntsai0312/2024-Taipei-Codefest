@@ -113,7 +113,7 @@ const MyCard = ({ name, description, imgUrl, closeModal }: MyCardProps) => {
                 onMouseDown={handleClick}
                 onTouchStart={handleClick}
             >
-                <Card name={name} description={description} imgUrl={imgUrl} />
+                {/* <Card name={name} description={description} imgUrl={imgUrl} /> */}
             </animated.div>
 
         </div>

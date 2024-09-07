@@ -203,6 +203,9 @@ const Collection = () => {
                             name='random'
                             description='random'
                             imgUrl={["https://gipo.ntu.edu.tw/uploads/member_profile/avatar/5f48f3bb1d41c8097c0000c5/Peng.jpg"]}
+                            price='0'
+                            time='0'
+                            rating='0'
                             closeModal={handleCardClose}
                         />
                     </div>

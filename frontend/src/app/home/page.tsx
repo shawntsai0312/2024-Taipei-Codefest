@@ -5,15 +5,15 @@ import { useRouter, useParams } from 'next/navigation';
 const tinderType = [
     {
         type: "art",
-        icon: <img src='/resource/icon for taipeicode/art.svg' alt="art" style={{ height: '80%', width: '100%' }} />
+        icon: <img src='/resource/icon for taipeicode/art.png' alt="art" style={{ height: '80%', width: '80%' }} />
     },
     {
         type: "child",
-        icon: <img src='/resource/icon for taipeicode/child.svg' alt="art" style={{ height: '80%', width: '100%' }} />
+        icon: <img src='/resource/icon for taipeicode/child.png' alt="art" style={{ height: '80%', width: '80%' }} />
     },
     {
         type: "couple",
-        icon: <img src='/resource/icon for taipeicode/couple.svg' alt="art" style={{ height: '60%', width: '100%' }} />
+        icon: <img src='/resource/icon for taipeicode/couple.png' alt="art" style={{ height: '80%', width: '80%' }} />
     }
 ]
 

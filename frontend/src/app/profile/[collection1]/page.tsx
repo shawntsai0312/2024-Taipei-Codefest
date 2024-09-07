@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom';
 import MuseumIcon from '@mui/icons-material/Museum';
 import WcIcon from '@mui/icons-material/Wc';
+import SlotMachine from '../slotMachine';
 
 const Collection1 = () => {
 

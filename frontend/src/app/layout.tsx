@@ -26,7 +26,7 @@ export default function RootLayout({
           <div className="flex-grow overflow-y-auto h-[calc(100%-48px)]">
             {children}
           </div>
-          <div className="h-[48px] bg-gray-100 flex items-center justify-center"/>
+          <div className="h-[48px] bg-white flex items-center justify-center"/>
           <div className="w-full h-[48px] fixed bottom-0 bg-white flex justify-center items-center">
             <Navbar />
           </div>

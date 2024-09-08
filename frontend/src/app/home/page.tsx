@@ -25,7 +25,7 @@ const Home = () => {
     const router = useRouter();
 
     return (
-        <div className="justify-center items-center h-full w-full relative">
+        <div className="justify-center items-center h-full w-full relative space-y-2">
             <div className="w-full h-[10%] mt-2 flex row items-center bg-[#ffffff] justify-center space-x-2">
                 {
                     tinderType.map(each => {

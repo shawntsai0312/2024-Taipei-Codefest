@@ -113,7 +113,6 @@ const Tinder = () => {
                                     choices={choices} setChoices={setChoices}
                                 /> : <></>
                         }
-
                     </div>
                 </>
             )}

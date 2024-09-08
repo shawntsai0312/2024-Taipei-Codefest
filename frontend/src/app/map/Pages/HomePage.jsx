@@ -29,20 +29,19 @@ const HomePage = () => {
   const loadGoogleMapsScript = () => {
     if (!scriptLoaded && !document.querySelector(`script[src*="maps.googleapis.com"]`)) {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${'AIzaSyAZsmXSzyeIXkdMQCNUpAyzb3OBIh0vm6w'}`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`;
       script.async = true;
       script.defer = true;
       script.onload = () => {
         setIsLoaded(true);
-        scriptLoaded = true; // Mark script as loaded globally
+        scriptLoaded = true; 
       };
       document.head.appendChild(script);
     } else if (scriptLoaded) {
-      setIsLoaded(true); // Mark as loaded if the script is already present
+      setIsLoaded(true); 
     }
   };
 
-  // Get user's current location
   const getUserLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -51,8 +50,8 @@ const HomePage = () => {
             lat: position.coords.latitude,
             lng: position.coords.longitude,
           };
-          setCoords(userLocation); // Update the map center with user's location
-          mapRef.current?.setCenter(userLocation); // Center map to user's location
+          setCoords(userLocation); 
+          mapRef.current?.setCenter(userLocation); 
         },
         () => {
           Swal.fire({
@@ -75,7 +74,6 @@ const HomePage = () => {
     }
   };
 
-  // Trigger to load Google Maps script only once and get user's location on mount
   useEffect(() => {
     loadGoogleMapsScript();
     if (!cachedMap) {
@@ -83,18 +81,16 @@ const HomePage = () => {
     }
 
     return () => {
-      // Prevent map from being destroyed on unmount
       cachedMap = mapRef.current;
     };
   }, []);
 
-  // Function to handle the map load event and cache the instance
   const handleMapLoad = (map) => {
     if (cachedMap) {
       mapRef.current = cachedMap;
     } else {
       mapRef.current = map;
-      cachedMap = map; // Cache the map instance globally
+      cachedMap = map; 
     }
   };
 
@@ -103,6 +99,12 @@ const HomePage = () => {
     { id: 2, lat: 25.037671, lng: 121.540 },
     { id: 3, lat: 25.032671, lng: 121.562427 },
   ];
+  // const icon = {
+  //   url: pinIcon,  // The path to your image file
+  //   scaledSize: new window.google.maps.Size(40, 40),  // Scale the icon
+  //   origin: new window.google.maps.Point(0, 0),
+  //   anchor: new window.google.maps.Point(20, 40),  // Adjust the anchor
+  // };
 
   return (
     <div className="w-full h-full border-[2px] border-[#330c0c]">
@@ -114,6 +116,13 @@ const HomePage = () => {
           onLoad={handleMapLoad}
         >
           {/* Add markers or other map elements here */}
+          {locations.map(location => (
+            <MarkerF
+              key={location.id}
+              position={{ lat: location.lat, lng: location.lng }}
+              // icon={icon} // You can set your custom pin icon here
+            />
+          ))}
         </GoogleMap>
       ) : (
         <div>Loading Google Maps...</div>
@@ -123,6 +132,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-// xS2U2l4fA61aPcfmoMFqdXJ0pfgc4Muw5M0Duq7X5vhD2CdfwSd3NEpyR20vSXUE
-// Cy7zVndCI3LEgQeg

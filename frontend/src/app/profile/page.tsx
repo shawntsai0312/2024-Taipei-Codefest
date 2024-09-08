@@ -1,81 +1,100 @@
 'use client'
-import { useState } from 'react';
-import Avatar from '@mui/material/Avatar';
-import SettingsIcon from '@mui/icons-material/Settings';
-import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
-import TuneIcon from '@mui/icons-material/Tune';
-import Modal from '@mui/material/Modal';
-import Fade from '@mui/material/Fade';
-import Backdrop from '@mui/material/Backdrop';
-import me from '../../../public/resource/profileData/me.json'
-import MyCard from './myCard';
-import Setting from './setting';
-import Edit from './edit';
-import Preference from './preference';
 
 import { useRouter } from 'next/navigation';
-import Button from '@mui/material/Button';
 import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom';
 import MuseumIcon from '@mui/icons-material/Museum';
 import WcIcon from '@mui/icons-material/Wc';
+import StarsIcon from '@mui/icons-material/Stars';
+
+const tinderType = [
+    {
+        type: "art",
+        name: "藝文活動",
+        icon: <MuseumIcon sx={{ height: '25%', width: '15%' }} />,
+        URL: 'https://image-cdn.learnin.tw/bnextmedia/image/album/2020-02/img-1581058259-35281.jpg?w=1600&output=webp'
+    },
+    {
+        type: "child",
+        name: "親子活動",
+        icon: <FamilyRestroomIcon sx={{ height: '25%', width: '15%' }} />,
+        URL: 'https://yas.io/hk/blog/wp-content/uploads/2020/08/AdobeStock_318148342-min.jpeg'
+    },
+    {
+        type: "couple",
+        name: "情侶約會",
+        icon: <WcIcon sx={{ height: '25%', width: '15%' }} />,
+        URL: 'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-02/outdoor-date-ideas-hiking-mc-240213-e0c84e.jpg'
+    }
+]
 
 const Profile = () => {
     const router = useRouter();
 
-    const [cardOpen, setCardOpen] = useState(false);
-    const handleCardOpen = () => setCardOpen(true);
-    const handleCardClose = () => setCardOpen(false);
-
-    const [settingOpen, setSettingOpen] = useState(false);
-    const handleSettingOpen = () => setSettingOpen(true);
-    const handleSettingClose = () => setSettingOpen(false);
-
-
-    const [editOpen, setEditOpen] = useState(false);
-    const handleEditOpen = () => setEditOpen(true);
-    const handleEditClose = () => setEditOpen(false);
-
-    const [preferenceOpen, setPreferenceOpen] = useState(false);
-    const handlePreferenceOpen = () => setPreferenceOpen(true);
-    const handlePreferenceClose = () => setPreferenceOpen(false);
-
-    const handleGoToCollection1 = () => {
-        router.push('/profile/collection1');
-    };
     return (
-        <div className="h-full w-full flex flex-col items-center justify-center">
-            <div className="h-[7%] w-full text-[28px] flex font-bold text-taipeiPass">
-                <p className="px-8">
-                    我的口袋名單
+        <div className="h-full w-full flex flex-col pt-4">
+            <div className="h-[7%] w-full text-xl ml-4 flex items-center font-bold text-taipeiPass">
+                <StarsIcon sx={{ height: '60%', width: '15%' }} />
+                <p>
+                    我的收藏
                 </p>
             </div>
-            <div className="left-[-50%] h-[80%] w-[200%] 
-                flex flex-col items-center justify-center"
-            >
-                <Button
-                    className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
-                    variant="contained"
-                    startIcon={<FamilyRestroomIcon fontSize='large' />}
-                    onClick={handleGoToCollection1}
-                >
-                    親子活動
-                </Button>
-                <div className='w-[42%] h-[6%]'></div>
-                <Button
-                    className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
-                    variant="contained"
-                    startIcon={<MuseumIcon />}>
-                    藝文活動
-                </Button>
-                <div className='w-[42%] h-[6%]'></div>
-                <Button
-                    className="w-[42%] h-[25%] text-[34px] rounded-3xl font-semibold bg-taipeiPass"
-                    variant="contained"
-                    startIcon={<WcIcon />}>
-                    情侶約會
-                </Button>
+
+            {/* 主內容區塊 */}
+            <div className="left-[-50%] h-[60%] w-[100%] flex flex-col items-center justify-around">
+                {
+                    tinderType.map(each => {
+                        return (
+                            <div
+                                className="relative w-[84%] h-[30%] text-[32px] rounded-3xl font-semibold bg-white flex items-center justify-center text-taipeiPass border-2 border-taipeiPass z-20 overflow-hidden shadow-lg"
+                                onClick={() => router.push(`/profile/${each.type}`)}
+                                key={each.type}
+                            >
+                                {/* 左邊梯形圖片區塊 */}
+                                <div
+                                    className="absolute w-[100%] h-[110%] flex items-center justify-start z-10"
+                                    style={{ clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)' }}  // 梯形
+                                >
+                                    <img
+                                        className="rounded-l-3xl -ml-14 mt-2"
+                                        src={each.URL}
+                                        width={300}
+                                        height={300}
+                                        loading="lazy"
+                                        alt=""
+                                    />
+                                </div>
+
+                                {/* 右邊梯形文字區塊 */}
+                                <div
+                                    className="absolute w-[100%] text-xl h-full flex items-center justify-end p-5 box-border text-taipeiPass text-right rounded-3xl "
+                                    style={{ clipPath: 'polygon(60% 0, 100% 0, 100% 100%, 40% 100%)' }} // 梯形
+                                >
+                                    {each.name}
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+
+                {/* 新增一個梯形範例區塊 */}
+                {/* 新增一個重疊梯形範例區塊 */}
+                {/* <div className="relative w-[84%] h-[25%] my-4 border-2 border-taipeiPass rounded-3xl overflow-hidden">
+                    {/* 左邊梯形圖片區塊 */}
+                {/* <div className="absolute w-[100%] h-full bg-gray-200 flex items-center justify-center" */}
+                {/* style={{ clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)' }}>  左側梯形 */}
+                {/* <img src="your-image-url.jpg" alt="Example Image" className="w-full h-full object-cover rounded-l-3xl" /> */}
+                {/* </div> */}
+
+                {/* 右邊梯形文字區塊 */}
+                {/* <div className="absolute w-[100%] h-full bg-white p-5 flex items-center justify-center text-taipeiPass text-[32px] font-semibold rounded-r-3xl" */}
+                {/* // style={{ clipPath: 'polygon(60% 0, 100% 0, 100% 100%, 40% 100%)' }}>  右側梯形 */}
+                {/* {} */}
+                {/* </div>  */}
+                {/* </div> */}
+
+
             </div>
-        </div>
+        </div >
     )
 }
 

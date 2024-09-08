@@ -5,12 +5,14 @@ from flask_pymongo import PyMongo
 import os
 import json
 from bson.json_util import dumps
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-
 MONGODB_API_URL = "https://ap-southeast-1.aws.data.mongodb-api.com/app/data-pmmismi/endpoint/data/v1/action/"
-API_KEY = "xS2U2l4fA61aPcfmoMFqdXJ0pfgc4Muw5M0Duq7X5vhD2CdfwSd3NEpyR20vSXUE"
+API_KEY = os.getenv("API_KEY") 
 HEADERS = {
     "Content-Type": "application/json",
     "Access-Control-Request-Headers": "*",
@@ -82,9 +84,7 @@ def generate_banner():
     except Exception as e:
         return jsonify({'error': 'An error occurred: ' + str(e)}), 500
     
-    print(res[0][:2])
     return jsonify(res), 200
-
     
 @app.route('/api/<class_id>/<id>/fetch_data', methods=['GET'])
 def fetch_data(class_id, id):
@@ -131,5 +131,29 @@ def update_data(class_id, id, my_preference):
     except Exception as e:
         return jsonify({'error': 'An error occurred: ' + str(e)}), 500
     
+@app.route('/api/<class_id>/fetch_like_data', methods=['GET', 'POST'])
+def fetch_like_data(class_id):
+    try:
+        url = f"{MONGODB_API_URL}find"
+        payload = {
+            "database": "taipei_codetest", 
+            "collection": "attractions",  
+            "dataSource": "backend",
+            "filter": {'class_id': float(class_id), 'preference': "like"},
+        }
+        response = requests.post(url, headers=HEADERS, json=payload)
+        print(response)
+        if response.status_code == 200 and response.json is not None:
+            data = response.json()
+            return jsonify({"message": "Liked Data fetched successfully!", "data": data}), 200
+        else:
+            return jsonify({"error": "Failed to fetch data", "details": response.text}), response.status_code
+    except Exception as e:
+        return jsonify({'error': 'An error occurred: ' + str(e)}), 500
+    
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+# xS2U2l4fA61aPcfmoMFqdXJ0pfgc4Muw5M0Duq7X5vhD2CdfwSd3NEpyR20vSXUE
+# DB, erichen, password : Cy7zVndCI3LEgQeg

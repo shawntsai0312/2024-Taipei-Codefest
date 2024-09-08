@@ -7,7 +7,6 @@ const Chat = () => {
         <main>
              <HomePage/>
         </main>
-       
     );
 }
 

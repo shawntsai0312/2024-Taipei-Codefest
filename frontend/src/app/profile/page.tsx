@@ -32,7 +32,7 @@ const Profile = () => {
 
     return (
         <div className="h-full w-full flex flex-col pt-4">
-            <div className="h-[7%] w-full text-xl ml-4 flex items-center font-bold text-taipeiPass">
+            <div className="h-[7%] w-full text-xl pl-4 flex items-center font-bold text-taipeiPass">
                 <StarsIcon sx={{ height: '60%', width: '15%' }} />
                 <p>
                     我的收藏

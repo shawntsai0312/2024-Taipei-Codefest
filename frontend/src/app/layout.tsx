@@ -7,7 +7,7 @@ import Headbar from "./headbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ARTinder",
+  title: "去哪玩",
   description: "a tinder-like app for art lovers",
   icons: {
     icon: "./icon.ico"

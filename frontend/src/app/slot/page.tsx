@@ -34,7 +34,7 @@ const SlotMachine = ({options}:{options:string[]}) => {
           id="reel"
           className="flex items-center justify-center w-64 h-24 text-2xl font-bold text-cyan-700 bg-white border-4 border-cyan-800 rounded-lg break-words"
           style={{
-            fontSize: `${Math.min(100, 200 / reelValue.length)}px` // Adjust font size to fit the box
+            fontSize: `${Math.min(50, 200 / reelValue.length)}px` // Adjust font size to fit the box
           }}
         >
           {reelValue}

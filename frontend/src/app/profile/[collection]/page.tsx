@@ -60,7 +60,7 @@ const Collection = () => {
                 } 
                 if (pathname === '/profile/couple'){
                     url = `http://127.0.0.1:5000/api/3/fetch_like_data`
-                    setHeader('情侶活動')
+                    setHeader('情侶約會')
                 } 
 
                 // const url = `http://127.0.0.1:5000/api/generate_banner`
@@ -83,7 +83,7 @@ const Collection = () => {
 
     return (
         <div className="w-full flex flex-col items-center justify-center">
-            <div className="h-[10%] w-full text-[28px] flex items-center font-bold text-taipeiPass px-4">
+            <div className="h-[10%] w-full text-xl flex items-center font-bold text-taipeiPass px-4">
                 <IconButton className="text-taipeiPass" onClick={handleBackToProfile}>
                     <ArrowBackIcon />
                 </IconButton>
@@ -97,7 +97,7 @@ const Collection = () => {
                         jsonData? jsonData.map((place, index) => {
                             console.log(place)
                             return (
-                                <div className='border-4 border-taipeiPass rounded-lg mx-4 mb-6'>
+                                <div className='border-2 border-taipeiPass rounded-lg mx-4 mb-4'>
                                     <Card sx={{ display: 'flex' }}>
                                         <CardMedia
                                             component="img"
@@ -110,12 +110,13 @@ const Collection = () => {
                                                 <Typography
                                                     variant="h6"
                                                     component="div"
-                                                    className='font-semibold'>
+                                                    className='font-semibold text-base'>
                                                     {place.name}
                                                 </Typography>
                                                 <Typography
                                                     variant="subtitle1"
                                                     component="div"
+                                                    className='text-xs'
                                                 >
                                                     {place.description}
                                                 </Typography>

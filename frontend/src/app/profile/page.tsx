@@ -11,19 +11,19 @@ const tinderType = [
         type: "art",
         name: "藝文活動",
         icon: <MuseumIcon sx={{ height: '25%', width: '15%' }} />,
-        URL: 'https://www.travel.taipei/image/221739/?r=1637566579522'
+        URL: 'https://image-cdn.learnin.tw/bnextmedia/image/album/2020-02/img-1581058259-35281.jpg?w=1600&output=webp'
     },
     {
         type: "child",
         name: "親子活動",
         icon: <FamilyRestroomIcon sx={{ height: '25%', width: '15%' }} />,
-        URL: 'https://www.taiwan.net.tw/pic.ashx?qp=1/big_scenic_spots/pic_A12-00382.jpg&sizetype=3'
+        URL: 'https://yas.io/hk/blog/wp-content/uploads/2020/08/AdobeStock_318148342-min.jpeg'
     },
     {
         type: "couple",
-        name: "情侶活動",
+        name: "情侶約會",
         icon: <WcIcon sx={{ height: '25%', width: '15%' }} />,
-        URL: 'https://wp.housefeel.com.tw/wp-content/uploads/2021/10/230804台北101-為什麼可以蓋這麼高？為什麼市中心有摩天大樓？台北101興建故事！.png'
+        URL: 'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-02/outdoor-date-ideas-hiking-mc-240213-e0c84e.jpg'
     }
 ]
 
@@ -31,8 +31,8 @@ const Profile = () => {
     const router = useRouter();
 
     return (
-        <div className="h-full w-full flex flex-col my-10">
-            <div className="h-[7%] w-full text-[28px] flex items-center font-bold text-taipeiPass mx-4">
+        <div className="h-full w-full flex flex-col pt-4">
+            <div className="h-[7%] w-full text-xl pl-4 flex items-center font-bold text-taipeiPass">
                 <StarsIcon sx={{ height: '60%', width: '15%' }} />
                 <p>
                     我的收藏
@@ -45,17 +45,17 @@ const Profile = () => {
                     tinderType.map(each => {
                         return (
                             <div
-                                className="relative w-[84%] h-[30%] text-[32px] rounded-3xl font-semibold bg-white flex items-center justify-center text-taipeiPass border-4 border-taipeiPass z-20"
+                                className="relative w-[84%] h-[30%] text-[32px] rounded-3xl font-semibold bg-white flex items-center justify-center text-taipeiPass border-2 border-taipeiPass z-20 overflow-hidden shadow-lg"
                                 onClick={() => router.push(`/profile/${each.type}`)}
                                 key={each.type}
                             >
                                 {/* 左邊梯形圖片區塊 */}
                                 <div
-                                    className="absolute w-[100%] h-full flex items-center justify-start z-10 rounded-l-3xl border-1 "
+                                    className="absolute w-[100%] h-[110%] flex items-center justify-start z-10"
                                     style={{ clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)' }}  // 梯形
                                 >
                                     <img
-                                        className="rounded-l-3xl"
+                                        className="rounded-l-3xl -ml-14 mt-2"
                                         src={each.URL}
                                         width={300}
                                         height={300}
@@ -66,7 +66,7 @@ const Profile = () => {
 
                                 {/* 右邊梯形文字區塊 */}
                                 <div
-                                    className="absolute w-[100%] text-[32px] h-full flex items-center justify-end p-5 box-border text-taipeiPass text-right rounded-3xl "
+                                    className="absolute w-[100%] text-xl h-full flex items-center justify-end p-5 box-border text-taipeiPass text-right rounded-3xl "
                                     style={{ clipPath: 'polygon(60% 0, 100% 0, 100% 100%, 40% 100%)' }} // 梯形
                                 >
                                     {each.name}

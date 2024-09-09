@@ -116,14 +116,14 @@ const Banner: React.FC<BannerProps> = ({ description, places }) => {
       <div className='flex flex-row justify-between'>
         <p className="mb-2 text-lg font-bold" style={{paddingLeft: '10%'}}>
           {
-            description === 1 ? '藝文活動' :
-            description === 2 ? '親子活動' : '情侶約會'
+            description === 1 ? '藝文精選' :
+            description === 2 ? '親子精選' : '情侶精選'
           }
         </p>
-        <div className='flex flex-row w-[20%]'>
+        {/* <div className='flex flex-row w-[20%]'>
           <p className='mt-2.5 text-xs' style={{paddingRight: '5%'}}>更多</p>
           <img src='/resource/homeData/img/arrow_forward.png' className='mt-3' style={{ height: '10px', width: '10px' }} />
-        </div>
+        </div> */}
       </div>
       <div className='flex flex-col w-full items-center'>
         <div className="relative w-full">

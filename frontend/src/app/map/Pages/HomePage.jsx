@@ -53,7 +53,7 @@ const HomePage = () => {
   const loadGoogleMapsScript = () => {
     if (!scriptLoaded && !document.querySelector(`script[src*="maps.googleapis.com"]`)) {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${'AIzaSyDOOTbSzXU1rMPQueq8dEGTbfcSKCCkE7Y'}`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`;
       script.async = true;
       script.defer = true;
       script.onload = () => {
@@ -198,6 +198,10 @@ const HomePage = () => {
               
             </div>
           </div> }
+          <div className='bg-[#eeeeee] w-[240px] h-[36px] mx-auto z-[]'>
+            <button className='w-[24px]'>全部</button>
+            <button className='h-[18px]'>收藏</button>
+          </div>
         </GoogleMap>
       ) : (
         <div>Loading Google Maps...</div>

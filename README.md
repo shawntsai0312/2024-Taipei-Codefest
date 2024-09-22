@@ -1,5 +1,25 @@
 # 2024 台北秋季程式設計節
 
+### How To Run
+
+1. create a .env file under backend/ to save your MongoDB api key
+```env
+API_KEY=YOUR_API_KEY
+```
+
+2. frontend
+```shell
+cd frontend
+yarn
+yarn dev
+```
+
+3. backend
+```shell
+cd backend
+pip install -r requirements.txt
+python main.py
+```
 
 ### Some Github Commands
 

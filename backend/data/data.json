@@ -1,0 +1,759 @@
+{
+    "hot-spring": [
+        {
+            "class_id": 1,
+            "id": 1,
+            "name": "泉源公園泡腳池園區",
+            "description": "※休園公告：臺北市北投區泉源公園溫泉泡腳池113年5月14日起暫停開放，不便之處請見諒！北投泉源公園周邊擁有穩定的溫泉水資源，臺北市政府產業發展局為永續利用環境資源，設置一處休閒與知性相結合之免費「足湯體驗園區」。民眾前往可搭乘捷運至北投站，再轉搭捷運支線至新北投站，走出捷運廣場，便可看見中和街，沿著中和街右轉珠海路直行，經泉源公園、磺港溪，步行約10~15分鐘即可到達位於義方國小...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2174",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/180564/1024x768_attractions-image-km3pucrwoewsgtnn6boypw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.14174",
+                "longitude": "121.50956"
+            }
+        },
+        {
+            "class_id": 1,
+            "id": 2,
+            "name": "新北投溫泉商圈",
+            "description": "北投溫泉從日據時代便有盛名，喜愛泡湯的日本人自然不會錯過，瀧乃湯、星乃湯、鐵乃湯就是日本人依照溫泉的特性與療效給予的名稱，據說對皮膚病、神經過敏、氣喘、風濕等具有很好的療效，也因此成為了北部最著名的泡湯景點之一。新北投溫泉的泉源為大磺嘴溫泉，泉質屬硫酸鹽泉，PH值約為3~4之間，水質呈黃白色半透明，泉水溫度約為50-90℃，帶有些許的硫磺味 。目前北投的溫泉旅館、飯店、會館大部分集...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/11",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/292631/1024x768_attractions-image-e07trgns9emdzbxckujdxg.jpg",
+                "https://www.travel.taipei/content/images/attractions/292623/1024x768_attractions-image-wj0amcttm0qx082fmlt4dg.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.13700",
+                "longitude": "121.50853"
+            }
+        },
+        {
+            "class_id": 1,
+            "id": 3,
+            "name": "陽明山國家公園_冷水坑",
+            "description": "冷水坑溫泉位在七星山與麻瘋山（七股山）間的東側谷地，原是一標準的爆裂口，後遭天然侵蝕及人為開墾，僅剩下不明顯的凹谷外形，主要的岩石為凝灰石角礫岩及紫蘇輝石角閃石安山岩，泉源附近岩質大部分受熱液換質作用，呈黏土化。冷水坑地底湧出的泉水約在攝氏40度左右，遠低於其它溫泉區水溫因而得名。這裡也是台灣唯一的沉澱硫磺礦床，泉水呈現乳白色，因而被稱為牛奶池。冷水坑溫泉是地下水間接傳導加熱而成的...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/9",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/63378/1024x768_attractions-image-hcf-co6tnu6tzvrwuvhgnw.jpg",
+                "https://www.travel.taipei/content/images/attractions/63380/1024x768_attractions-image-gnonzwgb102usu5n4ljcuw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.16559",
+                "longitude": "121.56401"
+            }
+        },
+        {
+            "class_id": 1,
+            "id": 4,
+            "name": "地熱谷_地獄谷_鬼湖",
+            "description": "地熱谷位在北投溫泉公園旁邊，是北投溫泉的源頭之一，因為終年瀰漫著硫磺煙霧，讓人聯想到恐怖的地獄，所以又被稱為「地獄谷」或「鬼湖」。這裡的溫泉是大屯山火山群內水溫最高的溫泉，硫磺煙霧濔漫的景色，如夢似幻，有如仙境一般，是日治時代臺灣八景十二勝之一。▲圖片來源：臺北市政府觀光傳播局地熱谷中的石頭具有放射性元素「鐳」，叫做「北投石」，是世界數千種礦石中，唯一用臺灣地名命名的礦石，目前只有臺灣...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/210",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/282092/1024x768_attractions-image-cr4353finkckzp6kitjjoq.jpg",
+                "https://www.travel.taipei/content/images/attractions/282084/1024x768_attractions-image-8q-vhzgf9kkfqp4hica4ea.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.13776",
+                "longitude": "121.51162"
+            }
+        },
+        {
+            "class_id": 1,
+            "id": 5,
+            "name": "北投公園露天溫泉浴池_千禧湯",
+            "description": "北投公園露天溫泉浴池位在北投公園中，以公園入口為起點，向地熱谷方向走，大概15分鐘就到了。▲圖片來源：臺北市政府觀光傳播局1999年12月才開放的園區，恰逢千禧年，所以又稱作「千禧湯」。佔地大概1000平方公尺，整體仿日式的建築設計，以原石、木材等自然材質為主，票亭跟廁間屋頂則用黑色文化瓦，洋溢著日式氛圍。▲圖片來源：臺北市政府觀光傳播局園區泉水源頭來自地熱谷，為一般人俗稱...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/415",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/281951/1024x768_attractions-image-9qg3k2wcdeet-0oorh4qza.jpg",
+                "https://www.travel.taipei/content/images/attractions/281952/1024x768_attractions-image-oa6tqvlbrkq2f-n54kurqq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.13688",
+                "longitude": "121.50838"
+            }
+        },
+        {
+            "class_id": 1,
+            "id": 6,
+            "name": "陽明山溫泉區_小油坑",
+            "description": "小油坑為一處後火山活動地質景觀區，由陽金公路的小觀音站右轉可達觀景步道，以「後火山作用」所形成之噴氣孔、硫磺結晶、溫泉及壯觀的崩塌地形最具特色。而在這裡的眺望平台還可遠眺竹子山、大屯山、七星山與小觀音山等火山錐體，以及金山海岸、停車場等。喜歡觀察植物的遊客，還可以用十幾分鐘的時間，一遊附近的箭竹林步道，觀察箭竹林、芒草原和火山植物。 ",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/10",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/63396/1024x768_attractions-image-uyx4nvg7e0avmy8a1n-vzq.jpg",
+                "https://www.travel.taipei/content/images/attractions/179910/1024x768_attractions-image-fefe8oc1skmfs27dqbl8zg.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.17669",
+                "longitude": "121.54683"
+            }
+        },
+        {
+            "class_id": 1,
+            "id": 7,
+            "name": "硫磺谷_大磺嘴",
+            "description": "陽明山國家公園硫磺谷地熱景觀區，周圍擁有豐富的火成岩及沉積岩地質環境，周邊還有許多景點，如龍鳳谷、磺溪溫泉步道等，走累了、玩累了還可以前往泡腳池休息，因為溫泉屬酸性硫酸鹽泉，受地底熱作用，含有豐富的硫化物等磺物質，水質呈黃白色、有硫磺味，俗稱「白磺」，泉溫40~60℃，pH值則介於3.2至4.6間，是一處非常適合全家大小一起來享受的好地方。【硫磺谷泡腳池園區】園區位址：臺北市北投區泉源...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2167",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/215808/1024x768_attractions-image-vy3dcxj_musaxyka6y-h6w.jpg",
+                "https://www.travel.taipei/content/images/attractions/215809/1024x768_attractions-image-0gen8mrcle2xg2pcncjsww.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.14358",
+                "longitude": "121.52119"
+            }
+        }
+    ],
+    "cycling-routes": [
+        {
+            "class_id": 2,
+            "id": 1,
+            "name": "延平河濱公園",
+            "description": "臺北市延平河濱公園位於忠孝橋至延平北路9段中洲抽水站之間堤外高灘地，這一帶在民國40年代曾是臺北人的休憩用地。延平河濱公園靠近忠孝橋至民生西路底，有大片腹地，自南京西路底(四號)進入，即看見大片濃郁樹林，綠草地和成蔭的大樹，這裡自古即是大同區居民的後花園，清晨廣場上不時有跳土風舞的婆婆媽媽，和散步、打太極拳的老爺爺。進入南京西路底(四號)水門有座「延平宮」到現在仍是當地耆老們的聚會之地，牌...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/263",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/65373/1024x768_attractions-image-fcvdji7g6e-q0zl9p7w7gw.jpg",
+                "https://www.travel.taipei/content/images/attractions/65375/1024x768_attractions-image-2ics_fjb-uwmqf_zw_sxxw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05412",
+                "longitude": "121.50707"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 2,
+            "name": "基隆河河濱自行車道",
+            "description": "從左岸的林安泰疏散門進入河濱自行車道，遊客可以看見記錄著基隆河緣起、整治故事的解說牌，讓民眾在運動休閒之餘，還能了解基隆河長長的歷史故事。大佳河濱公園是屬河床填土後的新生地，放眼望去盡是綠野草皮，靠西之地建設成都會型綠化公園，其中以中山橋到大直橋間段的親水公園最具特色，地標「希望之泉」的噴泉設計，高達25層樓高的扇形噴泉水幕，精采的水舞、夜晚亮麗的五彩霓虹燈光，整個河濱之地瞬間成為繽紛亮麗...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/270",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/65476/1024x768_attractions-image-ekmkckig6ecvzxatxmm3aa.jpg",
+                "https://www.travel.taipei/content/images/attractions/65475/1024x768_attractions-image-qfyosywdfugllhnhih8vog.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.07301",
+                "longitude": "121.52956"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 3,
+            "name": "關渡水岸公園",
+            "description": "關渡地名來自於西班牙語的「Casidor」，只因日本人發音省去「S」所以變成今日的「關渡」。關渡在古老的時代中曾經是硫磺產地和出口中心，1895年時曾為軍事要塞，設有砲台，也曾遭受過隕石的攻擊，至今仍遺留疑似殞石的殘骸在關渡國小自強分校內。關渡水岸公園佔地遼闊，有人行步道、自行車道外，關渡碼頭也是「藍色公路」的乘船地點之一，分別駛向臺北大稻埕碼頭、淡水老街、八里左岸及漁人碼頭四條路線；從關...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/1531",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/91783/1024x768_attractions-image-ohfyarwgqueihg_zpuzy0w.jpg",
+                "https://www.travel.taipei/content/images/attractions/91784/1024x768_attractions-image-bcw2fkfrxuoftepcgj-sbw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.11735",
+                "longitude": "121.46322"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 4,
+            "name": "古亭河濱公園",
+            "description": "古亭河濱公園位於永福橋至中正橋間，公園面積約27.3公頃，綠地廣闊。單車從思源街沿著自來水博物館方向騎到底就可進入園區內，斜坡道種植灌木排列出「古亭河濱公園」字樣別具巧思。▲圖片來源：臺北市政府觀光傳播局夏日午后，避開烈日，來這裡吹吹風，公園內有網球場、籃球場、溜冰場等一應俱全的運動設施供大家使用。喜愛來此地打球的球友都知道，這裡有兩座網球場比鄰而建，共享綠蔭，運動時不必在烈日下曝曬，...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/390",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/325901/1024x768_attractions-image-p-r-5pero0eyjix77f6t5w.jpg",
+                "https://www.travel.taipei/content/images/attractions/325902/1024x768_attractions-image-px0bwcuywk6cce8zcrriva.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.02015",
+                "longitude": "121.52256"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 5,
+            "name": "雙溪生活水岸自行車道",
+            "description": "從陽明山國家公園發源的雙溪，流經東吳大學之後，轉往公路北側，河濱綠地公園也由此綿延展開，河濱自行車道順勢闢建於左右兩岸，成為臺北市河川單車路網中，最貼近住宅區也維護得極為完善的短小精緻路徑。景色優美的雙溪河畔，引領平日生活繁忙的都市人，找到一條解放疲憊身心的綠色隧道，由雙溪左岸在銜接百齡橋右岸自行車道，百齡橋右岸河濱公園是玩橄欖球愛好者聚集之處，也常見足球隊伍相互較勁，單車族群也可加入這片...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/8",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/96282/1024x768_attractions-image-pxaod02z1eyctz8fbw1a3w.jpg",
+                "https://www.travel.taipei/content/images/attractions/96283/1024x768_attractions-image-29_-_shzj0oj6xos9igm6w.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.09992",
+                "longitude": "121.52802"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 6,
+            "name": "公館水岸廣場",
+            "description": "公館水岸廣場為臺北市鄰近新店溪的一個休閒場域，也是臺北市百年前水源發源地及唯一一段沒有堤防的景觀空間，平日提供民眾休憩及欣賞河濱景緻，為市區少數24小時充分運用的休閒場域：上午有晨運、打拳、跑步、騎自行車的民眾來此使用，並有腳踏車租借站，讓遊客到河濱車道享受騎乘單車悠遊河岸的樂趣，晚上有異國美食攤區及風格酒吧，每週五晚上還有免費的現場樂團演出，搭配著河岸的美食，是在臺北市內難得的戶外露天酒吧區。\n...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2179",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/180846/1024x768_attractions-image-yn3mt3znk0ue7cuqha85ta.jpg",
+                "https://www.travel.taipei/content/images/attractions/180847/1024x768_attractions-image-9k3niyhriumgbkro7m2nzw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.01125",
+                "longitude": "121.52840"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 7,
+            "name": "彩虹橋",
+            "description": "彩虹橋全長167公尺，是連接內湖區及松山區，橫跨基隆河的一座橋樑。造型特殊，由橋中央的四條主要鋼纜吊索支撐，橋的結構為S型的曲線橋體，鮮紅色鋼肋拱型梁結構，附屬設施為木質欄杆、粉紅及淡藍色地磚，為一座新穎的地標性公共設施。▲圖片來源：臺北市政府觀光傳播局彩虹橋現只開放人及腳踏車通行，不開放汽機車通行，不時可見行人悠閒漫步，也是往返內湖、饒河街夜市及松山火車站的捷徑橋梁，大大縮短了松山及...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/243",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/282359/1024x768_attractions-image-fqzciehrqkgic0eigurzvg.jpg",
+                "https://www.travel.taipei/content/images/attractions/282360/1024x768_attractions-image-hw47bjefcukweljlylwlpq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05215",
+                "longitude": "121.57665"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 8,
+            "name": "成美右岸河濱公園",
+            "description": "成美右岸河濱公園位於基隆河成功橋至麥帥一橋間(內湖側)，每到假日隔幾公尺就有一群各自聚精會神調弄手裡器具的人，仔細看看有電動遙控車、數位單眼相機&hellip;等，而且是大人玩得比小孩還起勁！公園裡有許多的運動設施，包含網球場、籃球場、壘球練習場、溜冰場、單槓、體健設施&hellip;等，提供給臺北市民有更多的運動空間。串聯成美左、右岸公園的「彩虹橋」，橋身鮮紅，造型獨特，宛如一道彩虹橫跨...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2259",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/181498/1024x768_attractions-image-jfkoebavseq4vtkwicy7ka.jpg",
+                "https://www.travel.taipei/content/images/attractions/181499/1024x768_attractions-image-xn2t08qhb0a-itifjk0yjq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05559",
+                "longitude": "121.58601"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 9,
+            "name": "關渡_金色水岸_八里左岸自行車道",
+            "description": "基隆河匯入淡水河之前，繞著社子島轉出一個美麗的弧彎，在其北岸與磺港溪以西地帶，保留了都會臺北極其珍貴的稻香田園，連結起河口紅樹林自然保護區，讓人得以在很短的距離內隔絕塵囂嘈雜，單車踩踏其間，尤其能夠體會早年農村氛圍的樸素簡單、踏實自在。夕照裡堤道漫步，河風微微、鳥鳴吱吱，關渡自然保護區生機盎然中，獨有浪漫閒適的野趣滿點。穿越關渡平原的自行車道，是全線非封閉性的路徑，西側端點為關渡宮，往東沿...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/5",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/63340/1024x768_attractions-image-bk4ymc_ltesqijdsuw30iw.jpg",
+                "https://www.travel.taipei/content/images/attractions/63335/1024x768_attractions-image-auqehwxli0ksbwiizliv7a.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.11382",
+                "longitude": "121.48003"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 10,
+            "name": "大稻埕碼頭_大稻埕碼頭貨櫃市集",
+            "description": "大稻埕原是平埔族的居住地，因萬華（艋舺）同安人發生激烈的械鬥，造成族人移至大稻埕定居，開始大稻埕淡水河旁商店和房屋的興建，淡水港開放後，大稻埕在劉銘傳的治理下成為臺北城最繁華的物資集散中心，當中以茶葉、布料為主要貿易交易，當時的延平北路及貴德街一帶便是商業活動的重心，也讓大稻埕早年的歷史多采多姿、令人回味。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/1",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/182690/1024x768_attractions-image-iuisfipvlei-hoquqtg_nw.jpg",
+                "https://www.travel.taipei/content/images/attractions/182691/1024x768_attractions-image-50fidiifaeiswkpv9nqx5a.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05640",
+                "longitude": "121.50761"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 11,
+            "name": "美堤河濱公園",
+            "description": "位於基隆河大直橋至中山高速公路間，面積約42.3公頃。公園是基隆河截彎取直、闢建之後規劃的。公園裡提供完備的運動設施：網球場、羽球場、排球場、籃球場、直排輪練習場&hellip;等，提供給附近居民運動休閒的功能。在這裡，白天可以遠眺大直橋及圓山飯店，不時還可以感受飛機的震撼，晚上大直橋及河岸的燈火雅緻迷人，漫步其間頗富情趣，是大直地區欣賞臺北市夜景和夜遊的最好去處。公園還規劃出一片...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2175",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/180567/1024x768_attractions-image-g6f6ybabzukaqeu5nrobcw.jpg",
+                "https://www.travel.taipei/content/images/attractions/180568/1024x768_attractions-image-o1gljkeksui6s08v7dc_jw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.07538",
+                "longitude": "121.56087"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 12,
+            "name": "迎風河濱公園",
+            "description": "位於基隆河大直橋至中山高速公路間，面積約273,387平方公尺。 園區最大的特色就是設有專為狗兒們所設置的「迎風狗運動公園」，佔地約1公頃，以體重9公斤作為分野，分為大狗區和小狗區，並設置不鏽鋼圍欄、雙層門作為人犬防護措施，還有狗便清潔便利設施，以及8座休憩座椅和4座洗手足台，方便在一番玩鬧之後，讓主人洗手和狗狗洗腳之用。河岸的親水草坪，是闔家歡聚、嬉戲、休憩的好地方，運動場是迎風河濱公園...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/252",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/65131/1024x768_attractions-image-byppwvacu0aswyb_tpmwvq.jpg",
+                "https://www.travel.taipei/content/images/attractions/65135/1024x768_attractions-image-hlkfbbqmckwwqynck3nlpq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.07435",
+                "longitude": "121.54574"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 13,
+            "name": "大佳河濱公園",
+            "description": "大佳河濱公園位於中山區中山橋和大直橋之間，是基隆河截彎取直後，經市政府開發建設而成的都會型綠化公園。面積廣大，進入園區映入眼簾的就是一大片一望無際的廣闊草園，還可以遙望美麗華的摩天輪，景色優美。公園內有五大遊戲區及出租腳踏車區，皆具不同特色。雙道滑索區設置了單點式及座椅式的滑索，可以讓孩子們體驗不同的樂趣；共融式沙坑區內有溜滑梯、攀爬設施、沙坑，還有遮陽區可讓家長休息；山丘溜滑梯遊戲區有8...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/251",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/222421/1024x768_attractions-image-u60zthcno0yglnxlxfst8w.jpg",
+                "https://www.travel.taipei/content/images/attractions/222417/1024x768_attractions-image-ylzuwqjwxumu_chogmglsw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.07464",
+                "longitude": "121.54089"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 14,
+            "name": "彩虹河濱公園",
+            "description": "彩虹河濱公園位於基隆河中山高速公路至麥帥一橋之間，彩虹橋橫跨於成美左、右岸河濱公園，紅色悠美的S型橋體是許多攝影者愛好的拍攝地點。在彩虹橋下的河濱廣場有情人們設計一系列的愛情主題造景，包括標示12種「我愛你」語文的情人步道、情人座椅、LOVE立體文字雕塑、愛情鎖等，歡迎情人們前來感受水岸浪漫氛圍。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/1734",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/89016/1024x768_attractions-image-ylgpfeo7nkgbx8cdg3ysnw.jpg",
+                "https://www.travel.taipei/content/images/attractions/89017/1024x768_attractions-image-jxica2ep_0uklftko92lqw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05996",
+                "longitude": "121.57231"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 15,
+            "name": "景美溪河濱自行車道",
+            "description": "有青山綠水相伴的景美溪河濱自行車道，沿線有動物園，政大球場及青草綠茵，溪流常有魚群穿梭，適合攜家帶眷全家出遊的路線。沿線的景觀相當豐富，翠綠草地，清澈溪流讓人感覺非常舒適，此外，於道南河濱公園內還設有各式各樣的運動場所，如籃球場、溜冰場、羽球場等，每到傍晚便可看到許多人或走或騎自行車到這兒來進行各種運動，是一個充滿活力的自行車道。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/4",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/63334/1024x768_attractions-image-zt1hdfl60k-mn-5mm_rxqa.jpg",
+                "https://www.travel.taipei/content/images/attractions/63329/1024x768_attractions-image-zzgc4kq7q0ieodp4x9yzlw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "24.98135",
+                "longitude": "121.56629"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 16,
+            "name": "華中河濱公園",
+            "description": "從空中鳥瞰，新店溪在華中河濱公園這裡轉了個彎，形成大面積的氾濫平原，彎彎的地形，像極了一抹弦月，更像支迴力刀，滿眼寬闊平坦的綠草地，最適合舉辦大型活動；這裡也是觀看夕陽、賞鳥的最佳場所：公園裡生態豐富，河裡有魚群迴流覓食，隨處可見野鳥在樹間跳躍。園內有多樣的兒童遊戲設施，還貼心的舖設細砂，使安全無虞，設施週遭亦提供座椅，供父母可以在同時兼顧兒童活動安全下休憩，增加親子情感互動。98年起市府更在此設...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/226",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/64732/1024x768_attractions-image-1-fcf1cmk0syuyh7uhlgvq.jpg",
+                "https://www.travel.taipei/content/images/attractions/64734/1024x768_attractions-image-sh1lu0akl0-0ah4reoxqfq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.01540",
+                "longitude": "121.49476"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 17,
+            "name": "葫蘆國小跨堤人行陸橋",
+            "description": "位於葫蘆國小附近的跨堤人行陸橋，因其波浪狀起伏的地面、兩側的玻璃橋面及頂部延伸整座陸橋的Z字形鋼筋有別於一般陸橋設計，整體特殊的造型吸引到社群網美及攝影愛好者的注意，使得葫蘆國小跨堤人行陸橋成為了熱門的打卡地標。天橋建議白天日光充足時前往拍攝，可順道至圓山、劍潭、士林、社子島...等周邊景點順遊，來一趟網美美拍一日遊。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2213",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/193316/1024x768_attractions-image-xxnlw5rbhe2cj8sxufgvzw.jpg",
+                "https://www.travel.taipei/content/images/attractions/193312/1024x768_attractions-image-79brrmqbhe25pm_4uuqhqq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.08348",
+                "longitude": "121.50693"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 18,
+            "name": "新店溪河濱自行車道",
+            "description": "這段由大稻埕碼頭沿著延平河濱公園所興建的自行車道，在遊騎之餘還可以走訪相鄰的文化古蹟，在動靜相宜的休閒活動中，既可強身還可陶醉於文化洗禮。周邊著名的文化觀光景點，如迪化街、霞海城隍廟、林柳新紀念偶戲博物館、酒泉街方向的臺北孔廟、保安宮等景點，從中體驗文化饗宴。沿途景觀包括大稻埕碼頭咖啡廣場、唐山帆船造景、碼頭拱橋、淡水河遠眺等，還結合藍色公路航線，帶著腳踏車一起前進到關渡碼頭，甚至淡水漁人...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/116",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/64305/1024x768_attractions-image-yqac6kldcky97nrd06qzaq.jpg",
+                "https://www.travel.taipei/content/images/attractions/180738/1024x768_attractions-image-l7ru4oefheob8rjt_bqmfw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.01641",
+                "longitude": "121.49530"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 19,
+            "name": "原住民文化主題公園",
+            "description": "臺北市外雙溪故宮博物院鄰近的公園，特別地規劃呈現原住民文化意象的主題風格，打造更有味道的原住民文化主題公園，包括各族人像石牌、少年與狗石像搗米人像、手紋像、人紋像、及大熊像、梅花鹿像、母與子石像等作品等，讓市民在臺北市內就可以接近原住民的生活；公園入口廣場寬闊氣勢擎天，向內沿著滿佈圖騰的圖騰地磚園路步行，進到湖畔水木棧廊道區，水邊種植落羽松群及多種水生植物如野薑花及睡蓮等，沿路以石板製成的石椅、石...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/1984",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/160923/1024x768_attractions-image-cyuw5nmm8ekfaoqpnffeqg.jpg",
+                "https://www.travel.taipei/content/images/attractions/160924/1024x768_attractions-image-bztg9tlw_ewdghjmqykskg.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.10160",
+                "longitude": "121.55077"
+            }
+        },
+        {
+            "class_id": 2,
+            "id": 20,
+            "name": "社子島環島與二重疏洪道自行車道",
+            "description": "社子島位於基隆河與淡水河之交匯處，地質為沙洲型態，該地區處處可見稻田橫亙，菜園綠茵，展現老農村民風純樸的美麗景緻。該地區利用堤頂建設自行車道，吸引許多自行車愛好者前往，社子島沙洲沙尾可以看見基隆河與淡水河交匯波濤澎湃的景象，每當夕陽西下，金黃色落日餘暉揮灑在河面上閃閃動人，遠眺大屯山及觀音山綿延天邊的景緻，教人美不勝收。往南還可銜接百齡橋左岸自行車，這裡有許多大型的各式球場，而且經常可以看...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/6",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/63343/1024x768_attractions-image-o5d4fm0st0wpul-xho0ilq.jpg",
+                "https://www.travel.taipei/content/images/attractions/63341/1024x768_attractions-image-rjucsq0e5eaiol8g9z7abw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.10985",
+                "longitude": "121.46606"
+            }
+        }
+    ],
+    "historic-sites": [
+        {
+            "class_id": 3,
+            "id": 1,
+            "name": "景美集應廟",
+            "description": "位於景美老街的集應廟，原來蓋在景尾竹圍內，供奉著福建省泉州府安溪縣人的保護神──保儀尊王張巡和保儀大夫許遠。後來因風水不好，於西元1867（同治6年）將廟遷建景尾街下街，就是今日的廟址。400年前，安溪人移民來到臺北，因為他們大部分都是茶農，所以選擇了文山這個潮濕的山丘地來種茶，同時帶來他們的鄉土保護神，保儀尊王、保儀大夫、清水祖師等神明。那時候的安溪人主要是高、張、林3大姓，隨著時間的進...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/79",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/89359/1024x768_attractions-image-0yscr33dhei_bou1bioekw.jpg",
+                "https://www.travel.taipei/content/images/attractions/89360/1024x768_attractions-image-fpiizcd7i0wxfyprfqonhg.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "24.99166",
+                "longitude": "121.54183"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 2,
+            "name": "信義公民會館暨眷村文化公園_四四南村",
+            "description": "四四南村是國共內戰時期的產物，也是臺北地區的第一個眷村，因為位於四四兵工廠之南方，故被稱為「四四南村」。該園區中有一座當時的碉堡，為設計者特意保留，雖然現在已經失去以往的功能，卻是四四南村走過歷史的痕跡。園內具有許多展覽館，還有許多民房保留著當時的樣貌，園區內更另外加添了許多文創元素在其中，也有眾多商品作販賣。Ａ館－親子館：提供親子們有溫度的遊戲空間，讓原本眷村味道的復古空間充滿創意；...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/45",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/223039/1024x768_attractions-image-mq4x586hqkgj4wuk0wdaqq.jpg",
+                "https://www.travel.taipei/content/images/attractions/223040/1024x768_attractions-image-4blhzodwu0s2mioaw5jlig.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.03131",
+                "longitude": "121.56197"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 3,
+            "name": "北投溫泉博物館",
+            "description": "這座早在日本時代就享有盛名的溫泉公共浴場，有著英國都鐸時期的鄉村建築風格，沉穩的紅色磚牆與黑色的瓦與綠蔭相稱，是個讓人放鬆休憩的好地方。1樓的羅馬拱柱環繞浴池，陽光穿過彩色玻璃，投影出異國情調。2樓的和室格局、日式地板，搭配著空氣中淡淡的溫泉味，昔日的氤氳時光，彷彿就在眼前重現。在當地人士的努力奔走下，這棟古蹟被保留下來，變身為今日的北投溫泉博物館，成為認識北投的最佳入門。一樓展覽...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/33",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/222580/1024x768_attractions-image-p5qre39rausp3xsjkao1kw.jpg",
+                "https://www.travel.taipei/content/images/attractions/222581/1024x768_attractions-image-m-ctdgqbtu-q_g6tw0a_ma.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.13658",
+                "longitude": "121.50715"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 4,
+            "name": "國立故宮博物院",
+            "description": "國立故宮博物院於1965年在外雙溪落成，中國宮殿式的建築，一至三樓為展覽陳列空間，四樓為休憩茶座「三希堂」。藏有全世界最多的中華藝術寶藏，收藏品主要承襲自宋、元、明、清四朝，幾乎涵蓋了整部五千年的中國歷史，數量近70萬件，使國立故宮博物院擁有「中華文化寶庫」的美名。故宮博物院內有兩種故宮三寶，一為藝術學界內的故宮三寶，三幅北宋巨碑式水墨畫，但因許多年才展出一次，鮮少人能親眼見到，便又分支出...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/19",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/221733/1024x768_attractions-image-znamljjawuwwkjczjcct8a.jpg",
+                "https://www.travel.taipei/content/images/attractions/221734/1024x768_attractions-image-hr4wyaec0ucguqm2aa-ynq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.10236",
+                "longitude": "121.54849"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 5,
+            "name": "西門紅樓",
+            "description": "西門紅樓於1908年由日本建築師近藤十郎所建造，由八角樓與十字樓組成，是臺灣第一座官方興建的公營市場，亦是今天全臺所保存最古老完整的三級古蹟建築物。▲圖片來源：臺北市政府觀光傳播局其中八角樓的「八卦造型」取其八方雲集之意作為入口、十字樓的「十字架造型」作為主體的特色，另外加上緊鄰兩旁的南北廣場統稱為「西門紅樓」。▲圖片來源：臺北市政府觀光傳播局西門紅樓歷經市場、書場、電影院...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/84",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/293072/1024x768_attractions-image-r8d8lkwstusly3k2xkhkya.jpg",
+                "https://www.travel.taipei/content/images/attractions/293073/1024x768_attractions-image-e4ykkiwrluiwermliblloa.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04207",
+                "longitude": "121.50693"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 6,
+            "name": "李臨秋故居",
+            "description": "李臨秋先生為「望春風」、「四季紅」等多首臺灣著名歌謠的作詞者，係臺灣流行歌謠史上重要代表人物，其創作亦為珍貴之無形文化資產。本建物作為名人故居當可展現其歷史及藝術價值。(資料來源：臺北市政府文化局)",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/419",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/66097/1024x768_attractions-image-3ekyxsrm702ty98q99qjuw.jpg",
+                "https://www.travel.taipei/content/images/attractions/66080/1024x768_attractions-image-aie_auclc0m2zpucnzxvnw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05518",
+                "longitude": "121.50871"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 7,
+            "name": "臺北記憶倉庫(三井倉庫)",
+            "description": "「臺北記憶倉庫」為一座興建於日治時期的紅磚造建築。其空間作落在北門、臺北車站旁，且鄰近淡水河、大稻埕碼頭，反映當時臺北興盛的貿易發展，見證商貿運輸從水路轉向陸運的歷程。本館以山林資源與物產貿易為主題，以流域與城市發展脈絡為故事，透過上中下游的空間演變述說土地上的人們如何使用、創造資源的歷程，同時創造多元觀點對話平臺。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/3676",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/376113/1024x768_attractions-image-v9l4q59uauibfzgyz6zabg.jpg",
+                "https://www.travel.taipei/content/images/attractions/374134/1024x768_attractions-image-5s5kb9vkbkwaz_wd-u4mzg.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04770",
+                "longitude": "121.51243"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 8,
+            "name": "新富町文化市場",
+            "description": "新富町食料品小賣市場落成於1935年，屬於日治時期較後期完成的公有市場，市場內的建物涵蓋了當時期的各種建材。馬蹄形的市場主建物平屋頂由鋼筋混凝土樑支撐，牆體為加強磚造。另外，附屬建築物有木造的日式宿舍與磚造的公廁，公廁的出現也象徵當時市場現代化的過程，可惜在時間推移間並沒有完整保留下來。1930年，臺北州政府公布了〈食料品小賣市場規則〉，基於衛生的考量，對於市場建築的構造、空間配置進行了詳...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/1798",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/176575/1024x768_attractions-image-4xjhobr_h06pp1jeje9fyg.jpg",
+                "https://www.travel.taipei/content/images/attractions/176572/1024x768_attractions-image-bpr04vbcm0a8qzdez1azaa.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.03577",
+                "longitude": "121.50192"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 9,
+            "name": "陳天來故居",
+            "description": "※2024年3月27日文化資產修復-暫停營業中 建築本體修復預計115年底至116年初竣工大稻埕早期為全臺最繁華的都會之一，貴德街更「因茶而貴」。從事茶葉貿易的商賈，很多都成為富人，陳天來就是其中一位。陳天來創立錦記茶行，並投資經營娛樂事業如蓬萊閣、第一劇場、永樂座&hellip;&hellip;等。位於貴德街73號的陳天來故居，即是昔日的「錦記茶行」，這棟仿巴洛克風格的3層樓建築...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/103",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/89350/1024x768_attractions-image-gxza4ezjre-ofuer0sddwa.jpg",
+                "https://www.travel.taipei/content/images/attractions/89351/1024x768_attractions-image-vz9w3llbguqp5cggerlusa.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05601",
+                "longitude": "121.50840"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 10,
+            "name": "草山行館",
+            "description": "真，一棟取材自然工法的建築善，一個古今藝文齊放的場域美，一座生態盎然的後山花園歲月的淘洗，歷史的轉折，始終維持隱而不顯的優雅姿態「草山」並非是一座山，而是泛指大屯山、七星山、紗帽山所圍的山谷地區。草山行館原為臺灣糖業株式會社招待所，民國38年國民政府遷臺，蔣公入住。行館幽靜宜人，地處草山戰略高點，基隆河與淡水河在眼前交會，關渡平原、社子島、觀音山，自然美景盡收眼底。民國39年（...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/224",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/90492/1024x768_attractions-image-n44vnvskme-rbm5oywo0aq.jpg",
+                "https://www.travel.taipei/content/images/attractions/90484/1024x768_attractions-image-wrn1cpvsj02n43lxvcbxya.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.15428",
+                "longitude": "121.53811"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 11,
+            "name": "臺灣電力株式會社社長宿舍",
+            "description": "日據時期的臺灣電力株式會社為當時工業剛起步發展的重要能源機構。它的首長官邸建於附近城廓，為目前仍然保存完整的官舍，光復後曾改充為中央招待所及臺灣省主席官邸之用。這座以高牆圍繞的官邸，建築風格採用西洋樣式，以瓦頂白牆及拱窗表現了南歐義大利或西班牙別莊之趣味。日據時期諸多高級官邸多喜採用不同風格的歐洲住宅式樣。這座外觀優雅且有庭院環境的洋房，入口設拱形門廳，內邊立有希臘柱式作為裝飾，樓...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2336",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/183814/1024x768_attractions-image-xrojlc_qh0qmpetqswwqfq.jpg",
+                "https://www.travel.taipei/content/images/attractions/183815/1024x768_attractions-image-2atysar9lkctfahodnuwfa.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04007",
+                "longitude": "121.50923"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 12,
+            "name": "静心苑_松山療養所所長宿舍",
+            "description": "松山療養所成立於1915年，是臺灣最早的肺結核病收容機構，因著松山療養所的成立，誕生了所長宿舍，松山療養所所長宿舍應是在 1922 年〈總督府官舍標準化〉法令發布後所建置，當時高等官官舍之設置是具有一定特有之規範。靜心苑(松山療養所所長宿舍)為日式木構造建築，無論是雨淋板的設置、和式小屋二重樑屋架、空間格局、建材等，大多為日治時期營建技術之展現，其中室內傘型天花以及入口外玄關兩側柱型之裝飾...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2636",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/210627/1024x768_attractions-image-m93y26ise0suzqbyoucoyw.jpg",
+                "https://www.travel.taipei/content/images/attractions/210619/1024x768_attractions-image-w-ojq6sn70a_5cqczdlaaw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04845",
+                "longitude": "121.59352"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 13,
+            "name": "國立臺灣博物館_古生物館",
+            "description": "座落二二八公園對面，為自然史為主的古生物展覽館，是日據時期遺留下來的勸業銀行古蹟再利用。外部為巨大羅馬柱廊的石造建築，牆面材料則為分割灰縫作法，鑄鐵窗採用滑輪與重錘省力的上下開閉，且鑄鐵窗都嵌入六角網目鐵絲網壓花處理玻璃，可藉此見證當時的營建技術與工藝水準。挑高三層樓的大廳以石膏浮雕泥塑板作為裝飾構件，裡面展示各樣古生物標本與大型恐龍模型...等，另常設有土地銀行行史金庫與建築修復的展覽。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/257",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/65317/1024x768_attractions-image-bjpxrgzvm0crtj84qrz9cq.jpg",
+                "https://www.travel.taipei/content/images/attractions/65318/1024x768_attractions-image-gexojsjznug0bp00v0kuaq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04356",
+                "longitude": "121.51436"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 14,
+            "name": "郭子儀紀念堂_內湖紅樓",
+            "description": "內湖在日治時期首任庄長郭氏之宅邸，位於內湖市街西側山丘上。大約建於日治大正八年(西元一九一九年)，當時臺灣社會安定，經濟景氣良好，官方建築的式樣也影響了民間住宅，例如臺北市迪化街的店屋立面多流行巴洛克的繁飾，使用紅磚、洗石子、泥塑與彩色瓷磚裝飾，亦被稱為大正型建築。內湖郭氏宅邸即屬於這時期的典型豪宅。 郭氏古宅座落於小丘山腰上，坐北朝南，三面樹林環繞，形勢極為幽勝。古宅平面略呈Ｔ字形，全為...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2177",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/180605/1024x768_attractions-image-8xkchehj1ukfnp9usi__oa.jpg",
+                "https://www.travel.taipei/content/images/attractions/180606/1024x768_attractions-image-mrpw6lffgkwcbhezginsma.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.07963",
+                "longitude": "121.58658"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 15,
+            "name": "國民革命忠烈祠",
+            "description": "國民革命忠烈祠背倚青山，面臨基隆河，建於1969年，主建築型式仿北京故宮太和殿，雄偉壯麗，象徵著烈士們成仁取義的大無畏精神。四周有一萬餘坪的青草地，在群山的拱衛中，營造出一種清幽而肅穆的氣氛，更烘托出建築物的莊嚴。中華民國成立前的革命烈士，及抗日戰爭及國共戰爭中犧牲的將士官兵，皆供奉於此，讓後人得以追思眾將士之愛國精神。在忠烈祠大門前站崗的衛兵，個個訓練嚴謹，總是雄偉站立著。每小時...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/25",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/215692/1024x768_attractions-image-vnlnfuycj0a8jdt1gumk8g.jpg",
+                "https://www.travel.taipei/content/images/attractions/215693/1024x768_attractions-image-gbifdibdnkgu_l0j8nv_ea.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.07838",
+                "longitude": "121.53313"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 16,
+            "name": "松山文創園區",
+            "description": "松山創意園區，位於臺北市信義區，占地6.6公頃，建於西元1937年，其前身為「臺灣總督府專賣局松山菸草工場」，為臺灣現代化工業廠房的先驅，也是第一座專業的捲菸廠。建築風格屬「日本初現代主義」，形式簡潔典雅，面磚、琉璃及銅釘做工精細，堪稱當時工廠的楷模。1945年戰後，臺灣省專賣局接收，更名為「臺灣省專賣局松山菸草工廠」，1998年，因都市空間規劃、公賣改制、需求量下降等因素停產，併入臺北菸...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/229",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/220346/1024x768_attractions-image-1-ftnqnguu2fnblgjy5ola.jpg",
+                "https://www.travel.taipei/content/images/attractions/220347/1024x768_attractions-image-djy5_b6yke6dhj5wi8saww.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04369",
+                "longitude": "121.56063"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 17,
+            "name": "松山火車站",
+            "description": "松山火車站是台灣少數幾的歷史最悠久車站之一，從清朝光緒年間興建基隆到新竹的第一條鐵道，松山就已經是一個簡易的售票房，松山地區的開發很早，原來是凱達格蘭平埔族貓裏即吼社的聚落，舊地名為「大加納錫口街」，光緒十三年（1887），當初所使用的車票是以龍馬郵票來替代。日治時代大正九年，大加納溪口街改名為台北州七星郡松山莊，「錫口車站」也改名為「松山車站」。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/1800",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/63208/1024x768_attractions-image-ac6w0kb-5uch_s3zabkgqa.jpg",
+                "https://www.travel.taipei/content/images/attractions/63203/1024x768_attractions-image-hrmneqzwvk63iyv4uwvqgq.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04929",
+                "longitude": "121.57828"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 18,
+            "name": "瓶蓋工廠台北製造所",
+            "description": "瓶蓋工廠台北製造所是涵蓋職人手創、知識教育分享、展演及餐飲的複合式空間；在這裡不僅可以體驗各種手作課程，還可以逛市集、看展覽、欣賞音樂演出。此外，瓶蓋工廠台北製造所保留了日本昭和時代的建築特色，如檜木屋頂的倉庫、挑高的廠房以及天窗設計，並將六棟廠房空間打造成不同主題館，是老屋迷必訪的熱門景點。",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/410",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/207926/1024x768_attractions-image-7r12wtgxlk6t0rqtaxcvvg.jpg",
+                "https://www.travel.taipei/content/images/attractions/207927/1024x768_attractions-image-0ztrrun2h0-98vnwpghatw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.05364",
+                "longitude": "121.60476"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 19,
+            "name": "北門_承恩門",
+            "description": "臺北古城有一共有5個城門：東門（景福門）、西門（寶成門）、南門（麗正門）、小南門（重熙門）、北門（承恩門），是清光緒年代，劉銘傳時期所建造，鼓勵商人在臺北城內，投資興建房舍，形成街道，活絡發展。北門又稱承恩門，面向北方有「承接天恩」之意，是台北僅存的閩南式建築原貌城門，它的區位重要性，在現代是老台北城區「西區」的樞紐地標，在清領時期而言，更是「城內」通往「大稻埕」的核心門戶。是以，西區門戶...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/88",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/64142/1024x768_attractions-image-5qllh8o-5uuykz8s8qq-na.jpg",
+                "https://www.travel.taipei/content/images/attractions/64143/1024x768_attractions-image-3kesk-tctuctoh8pwhqbpg.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04773",
+                "longitude": "121.51123"
+            }
+        },
+        {
+            "class_id": 3,
+            "id": 20,
+            "name": "國立臺灣博物館_鐵道部園區",
+            "description": "國定古蹟臺灣總督府鐵道部位於忠孝西路、塔城街、鄭州路、延平北路間，屬國營臺灣鐵路股份有限公司管轄。1885年臺灣巡撫劉銘傳聘請英國與德國顧問，於淡水河碼頭內建造機器局，組裝槍砲彈藥及鑄造貨幣，內有鎔鐵所、鍛工場等。1895年日本軍方接收機器局，改為臺北兵器修理所，製造並修理陸軍所管兵器，可製造彈丸、信管、小銃丸及藥筴、船舶、鐵道鐵橋等，之後改稱為臺灣砲兵工廠，1900年由陸軍省移交鐵道部，同年改為...",
+            "url": "https://www.travel.taipei/zh-tw/attraction/details/2576",
+            "imgUrl": [
+                "https://www.travel.taipei/content/images/attractions/207889/1024x768_attractions-image-520lz-dmge-wctfdrrzusa.jpg",
+                "https://www.travel.taipei/content/images/attractions/207890/1024x768_attractions-image-ihrbtqhdheqxgnj0vdoplw.jpg"
+            ],
+            "perference": "dislike",
+            "coordinates": {
+                "latitude": "25.04883",
+                "longitude": "121.51138"
+            }
+        }
+    ]
+}

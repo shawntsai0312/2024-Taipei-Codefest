@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
 import axios from 'axios'
 import { usePathname, useRouter } from "next/navigation";
 import StarsIcon from '@mui/icons-material/Stars';
+import 'dotenv/config';
 
 
 const containerStyle = {
@@ -25,6 +26,7 @@ const HomePage = () => {
   );
 
   const [coords, setCoords] = useState(defaultCenter);
+  const [curCoord, setCurCoord] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [locations, setLocations] = useState([])
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -53,7 +55,8 @@ const HomePage = () => {
   const loadGoogleMapsScript = () => {
     if (!scriptLoaded && !document.querySelector(`script[src*="maps.googleapis.com"]`)) {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`;
+      console.log('Google Maps API Key:', process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY);
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`; // 
       script.async = true;
       script.defer = true;
       script.onload = () => {
@@ -75,6 +78,7 @@ const HomePage = () => {
             lng: position.coords.longitude,
           };
           setCoords(userLocation); 
+          setCurCoord(userLocation);
           mapRef.current?.setCenter(userLocation); 
         },
         () => {
@@ -138,13 +142,11 @@ const HomePage = () => {
     if (!isModalOpen) {
       setIsModalOpen(true);
       setCurAttraction(location)
-      setCoords({ lat: location.coordinates.latitude, lng: location.coordinates.longitude})
     }
-    console.log(isModalOpen)
   }
 
   return (
-    <div className="w-full h-full border-[2px] border-[#330c0c]">
+    <div className="w-full h-[94vh]">
       {isLoaded ? (
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -152,10 +154,10 @@ const HomePage = () => {
           zoom={14}
           onLoad={handleMapLoad}
         >
-          <MarkerF
+          {curCoord && <MarkerF
               key={location.id}
-              position={coords}
-            />
+              position={curCoord}
+            />}
           {/* Add markers or other map elements here */}
           {locations.map(location => (
             <MarkerF
@@ -198,13 +200,18 @@ const HomePage = () => {
               
             </div>
           </div> }
-          <div className='bg-[#eeeeee] w-[240px] h-[36px] mx-auto z-[]'>
+          {/* <div className='bg-[#eeeeee] w-[240px] h-[36px] mx-auto z-[]'>
             <button className='w-[24px]'>全部</button>
             <button className='h-[18px]'>收藏</button>
-          </div>
+          </div> */}
         </GoogleMap>
       ) : (
-        <div>Loading Google Maps...</div>
+        <div className="flex justify-center items-center h-full">
+            <svg aria-hidden="true" className="w-8 h-8 text-gray-200 animate-spin dark:text-[#CAD1D5] fill-[#5AB4C5]" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+                <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+            </svg>
+        </div>
       )}
     </div>
   );

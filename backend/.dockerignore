@@ -1,0 +1,17 @@
+/backend/.dockerignore
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Other unnecessary files
+*.log
+*.tmp
+.DS_Store
+.env
+.venv
+chromedriver

@@ -1,17 +1,15 @@
 from flask import Flask, request, jsonify, send_file
 import requests
 from flask_cors import CORS
-from flask_pymongo import PyMongo
 import os
 import json
-from bson.json_util import dumps
 from dotenv import load_dotenv
 
 load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-MONGODB_API_URL = "https://ap-southeast-1.aws.data.mongodb-api.com/app/data-pmmismi/endpoint/data/v1/action/"
+MONGODB_API_URL = os.getenv("MONGO_API")
 API_KEY = os.getenv("API_KEY") 
 HEADERS = {
     "Content-Type": "application/json",
@@ -27,7 +25,7 @@ def serialize_document(document):
     
 @app.route('/api/init_data', methods=['GET'])
 def init_data():
-    dirs = "../frontend/public/data"
+    dirs = "./data"
     data = []
     for root, _, files in os.walk(dirs):
         for file in files:
@@ -155,5 +153,3 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
-# xS2U2l4fA61aPcfmoMFqdXJ0pfgc4Muw5M0Duq7X5vhD2CdfwSd3NEpyR20vSXUE
-# DB, erichen, password : Cy7zVndCI3LEgQeg
